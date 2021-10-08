@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row row-bottom-padded-sm pb-0">
                     <div className="col-md-12">
-                        <p className="copyright text-center mb-0">Powered by <a href="https://zrdevelopers.github.io/" target="_blank">ZRDevelopers</a>. All Rights Reserved.</p>
+                        <p className="copyright text-center mb-0">Powered by <a href="https://zrdevelopers.github.io/" target="_blank" rel="noreferrer">ZRDevelopers</a>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

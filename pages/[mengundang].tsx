@@ -45,7 +45,7 @@ const MengundangPage = () => {
         <meta name="twitter:url" content="https://zikriramdani.github.io/wedding2" />
         <meta name="twitter:card" content="Card" />
 
-        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css' />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" />
 
         {/* <!-- Animate.css --> */}
