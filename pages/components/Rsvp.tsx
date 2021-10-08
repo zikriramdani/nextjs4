@@ -7,7 +7,7 @@ const Rsvp = () => {
                     <div className="row animate-box">
                         <div className="col-md-8 col-md-offset-2">
                             <div className="col-md-12 text-center section-heading svg-sm colored">
-                                <img src="images/flaticon/svg/005-two.svg" className="svg" alt="" />
+                                <img src="images/flaticon/svg/005-two.svg" className="svg" alt="Wedding Vivi & Zikri" />
                                 <h2>RSVP</h2>
                                 <div className="row">
                                 <div className="col-md-10 col-md-offset-1 subtext">

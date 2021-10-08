@@ -27,7 +27,7 @@ const WhenwherePage = () => {
                     <div className="row animate-box">
                         <div className="col-md-8 col-md-offset-2">
                             <div className="col-md-12 text-center section-heading svg-sm colored">
-                                <img src="/images/flaticon/svg/005-two.svg" className="svg" />
+                                <img src="/images/flaticon/svg/005-two.svg" className="svg" alt="Wedding Vivi & Zikri" />
                                 <h2
                                 style={{paddingTop: "20px"}}>Ceremony &amp; Reception</h2>
                                 <div className="row">

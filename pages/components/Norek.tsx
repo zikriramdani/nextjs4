@@ -27,7 +27,7 @@ const Norek = (e) => {
                     <div className="row animate-box">
                         <div className="col-md-8 col-md-offset-2">
                             <div className="col-md-12 text-center section-heading svg-sm colored mb-0 pb-0">
-                                <img src="images/flaticon/svg/005-two.svg" className="svg" alt=""
+                                <img src="images/flaticon/svg/005-two.svg" className="svg" alt="Wedding Vivi & Zikri"
                                 style={{marginBottom: 0}} />
                                 <h2 style={{marginTop: 0}}>Give A Gift</h2>
                                 <div className="row">
@@ -43,7 +43,7 @@ const Norek = (e) => {
                     <div className="row animate-box row-bottom-padded-md">
                         <div className="col-md-6 col-xs-12 text-center animate-box mb-xs-5">
                             <div className="subtext">
-                                <img src="images/norekzikri.jpeg" width="200" alt="" style={{borderRadius: 0}} />
+                                <img src="images/norekzikri.jpeg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
                                 <p>
                                     Silahkan transfer ke rekening<br/>
                                     <b>BCA 5485415316 a/n Vivi Febriyani A</b>
@@ -54,7 +54,7 @@ const Norek = (e) => {
                             </div>
                         </div>
                         <div className="col-md-6 col-xs-12 text-center animate-box">
-                            <img src="images/norekzikri.jpeg" width="200" alt="" style={{borderRadius: 0}} />
+                            <img src="images/norekzikri.jpeg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
                             <div className="subtext">
                                 <p>
                                     Silahkan transfer ke rekening

@@ -22,7 +22,7 @@ const ModalProtokolPage = () => {
                             <div className="col-md-7 col-xs-12">
                             <div style={{marginBottom: "2rem"}}>
                                 <img src="images/kesehatan/prokes.97366c1.jpg" className="w-100" 
-                                style={{borderRadius: "5px"}} />
+                                style={{borderRadius: "5px"}} alt="Wedding Vivi & Zikri" />
                             </div>
                             <div className="text-center">
                                 <small>
