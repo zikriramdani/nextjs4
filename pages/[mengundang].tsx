@@ -26,6 +26,7 @@ const MengundangPage = () => {
   
   return (
     <div>
+      <>
       <Head>
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -65,15 +66,20 @@ const MengundangPage = () => {
         
         <link rel="stylesheet" href="/css/style.css" />
 
-        
+        {/* <!-- Modernizr JS --> */}
+        {/* <Script src="js/modernizr-2.6.2.min.js"></Script> */}
+        {/* <!-- FOR IE9 below -->
+        <!--[if lt IE 9]> */}
+        {/* <Script src="js/respond.min.js"></Script> */}
+        {/* <![endif]--> */}
       </Head>
-
       {/* <!-- Modernizr JS --> */}
-      <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script>
+      <Script src="js/modernizr-2.6.2.min.js"></Script>
       {/* <!-- FOR IE9 below -->
       <!--[if lt IE 9]> */}
-      <Script type="text/javascript" src="js/respond.min.js"></Script>
+      <Script src="js/respond.min.js"></Script>
       {/* <![endif]--> */}
+      </>
 
       <BeriHadiah />
       <Musik />
@@ -94,7 +100,7 @@ const MengundangPage = () => {
       
 
       {/* <!-- jQuery --> */}
-      <Script type="text/javascript" src="/js/jquery.min.js"></Script>
+      <Script src="/js/jquery.min.js"></Script>
       {/* <!-- jQuery Easing --> */}
       <Script src="/js/jquery.easing.1.3.js"></Script>
       {/* <!-- Bootstrap --> */}
