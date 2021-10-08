@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import Head from 'next/head';
 import { useRouter,  } from 'next/router';
 import queryString from "query-string";
@@ -64,13 +65,15 @@ const MengundangPage = () => {
         
         <link rel="stylesheet" href="/css/style.css" />
 
-        {/* <!-- Modernizr JS --> */}
-        <script src="js/modernizr-2.6.2.min.js"></script>
-        {/* <!-- FOR IE9 below -->
-        <!--[if lt IE 9]> */}
-        <script src="js/respond.min.js"></script>
-        {/* <![endif]--> */}
+        
       </Head>
+
+      {/* <!-- Modernizr JS --> */}
+      <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script>
+      {/* <!-- FOR IE9 below -->
+      <!--[if lt IE 9]> */}
+      <Script type="text/javascript" src="js/respond.min.js"></Script>
+      {/* <![endif]--> */}
 
       <BeriHadiah />
       <Musik />
@@ -91,30 +94,30 @@ const MengundangPage = () => {
       
 
       {/* <!-- jQuery --> */}
-      <script src="/js/jquery.min.js"></script>
+      <Script type="text/javascript" src="/js/jquery.min.js"></Script>
       {/* <!-- jQuery Easing --> */}
-      <script src="/js/jquery.easing.1.3.js"></script>
+      <Script src="/js/jquery.easing.1.3.js"></Script>
       {/* <!-- Bootstrap --> */}
-      <script src="/js/bootstrap.min.js"></script>
+      <Script src="/js/bootstrap.min.js"></Script>
       {/* <!-- Waypoints --> */}
-      <script src="/js/jquery.waypoints.min.js"></script>
+      <Script src="/js/jquery.waypoints.min.js"></Script>
       {/* <!-- YTPlayer --> */}
-      <script src="/js/jquery.mb.YTPlayer.min.js"></script>
+      <Script src="/js/jquery.mb.YTPlayer.min.js"></Script>
       {/* <!-- Flexslider --> */}
-      <script src="/js/jquery.flexslider-min.js"></script>
+      <Script src="/js/jquery.flexslider-min.js"></Script>
       {/* <!-- Owl Carousel --> */}
-      <script src="/js/owl.carousel.min.js"></script>
+      <Script src="/js/owl.carousel.min.js"></Script>
       {/* <!-- Parallax --> */}
-      <script src="/js/jquery.stellar.min.js"></script>
+      <Script src="/js/jquery.stellar.min.js"></Script>
       {/* <!-- Magnific Popup --> */}
-      <script src="/js/jquery.magnific-popup.min.js"></script>
-      <script src="/js/magnific-popup-options.js"></script>
+      <Script src="/js/jquery.magnific-popup.min.js"></Script>
+      <Script src="/js/magnific-popup-options.js"></Script>
       {/* <!-- Main JS (Do not remove) --> */}
-      <script src="/js/main.js"></script>
+      <Script src="/js/main.js"></Script>
 
-      <script src="/js/sticky.js"></script>
-      <script src="/js/popup.js"></script>
-      <script src="/js/audio.js"></script>
+      <Script src="/js/sticky.js"></Script>
+      <Script src="/js/popup.js"></Script>
+      <Script src="/js/audio.js"></Script>
 
     </div>
   )
