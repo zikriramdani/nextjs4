@@ -1,4 +1,5 @@
-[Link Demo](https://nextjs.org/)
+[Link Demo](https://nextjs4-nu.vercel.app)
+[Link Demo Turut Mengundang](https://nextjs4-nu.vercel.app/mengundang?name=Zikri%20Ramdani)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
