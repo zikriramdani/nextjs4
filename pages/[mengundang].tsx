@@ -26,7 +26,6 @@ const MengundangPage = () => {
   
   return (
     <div>
-      <>
       <Head>
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -67,19 +66,18 @@ const MengundangPage = () => {
         <link rel="stylesheet" href="/css/style.css" />
 
         {/* <!-- Modernizr JS --> */}
-        {/* <Script src="js/modernizr-2.6.2.min.js"></Script> */}
+        {/* <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script> */}
         {/* <!-- FOR IE9 below -->
         <!--[if lt IE 9]> */}
-        {/* <Script src="js/respond.min.js"></Script> */}
+        {/* <Script type="text/javascript" src="js/respond.min.js"></Script> */}
         {/* <![endif]--> */}
       </Head>
       {/* <!-- Modernizr JS --> */}
-      <Script src="js/modernizr-2.6.2.min.js"></Script>
+      <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script>
       {/* <!-- FOR IE9 below -->
       <!--[if lt IE 9]> */}
-      <Script src="js/respond.min.js"></Script>
+      <Script type="text/javascript" src="js/respond.min.js"></Script>
       {/* <![endif]--> */}
-      </>
 
       <BeriHadiah />
       <Musik />
