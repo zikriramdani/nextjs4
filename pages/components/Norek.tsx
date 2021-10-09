@@ -5,18 +5,18 @@ const Norek = (e) => {
     const myFunctionV = (e) => {
         navigator.clipboard.writeText('5485415316')
         Swal.fire({
-            title: 'BCA 5485415316 a/n Vivi Febriyani A',
-            text: 'No rekening berhasil dicopy',
-            icon: 'success'
+            html: '<h5 style="font-family: sans-serif">BCA 5485415316 a/n Vivi Febriyani A</h5><p class="mb-0">No rekening berhasil dicopy</p>',
+            icon: 'success',
+            allowOutsideClick: false
         })
     };
 
     const myFunctionZ= (e) => {
         navigator.clipboard.writeText('8015234527')
         Swal.fire({
-            title: 'BCA 8015234527 a/n Zikri Ramdani',
-            text: 'No rekening berhasil dicopy',
-            icon: 'success'
+            html: '<h5 style="font-family: sans-serif">BCA 8015234527 a/n Zikri Ramdani</h5><p class="mb-0">No rekening berhasil dicopy</p>',
+            icon: 'success',
+            allowOutsideClick: false
         })
     };
     return (
@@ -43,7 +43,7 @@ const Norek = (e) => {
                     <div className="row animate-box row-bottom-padded-md">
                         <div className="col-md-6 col-xs-12 text-center animate-box mb-xs-5">
                             <div className="subtext">
-                                <img src="images/norekzikri.jpeg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
+                                <img src="images/norekvivi.jpg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
                                 <p>
                                     Silahkan transfer ke rekening<br/>
                                     <b>BCA 5485415316 a/n Vivi Febriyani A</b>
