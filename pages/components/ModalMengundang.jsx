@@ -26,7 +26,7 @@ const ModalMengundangPage = () => {
                 {name ? (
                     <div className="modal-content"
                     style={{backgroundColor: "#00000085", height: "100%"}}>
-                        <div className="modal-header text-center text-white">
+                        {/* <div className="modal-header text-center text-white">
                             <h3 className="text-white"
                             style={{fontFamily: "sans-serif"}}>
                                 Wedding
@@ -35,12 +35,13 @@ const ModalMengundangPage = () => {
                             style={{fontFamily: "sans-serif"}}>
                                 Vivi Febriyani A & Zikri Ramdani
                             </h4>
-                        </div>
+                        </div> */}
                         <div className="modal-body text-white"
                         style={{
                             justifyContent: "center",
                             display: "flex",
-                            height: "calc(100% - 255px)"
+                            height: "100%"
+                            // height: "calc(100% - 255px)"
                         }}>
                             <div className="row protokol-center">
                                 <div className="col-xs-12">
@@ -80,24 +81,30 @@ const ModalMengundangPage = () => {
                             <div className="row protokol-center"
                             style={{marginTop: "1rem"}}>
                                 <div className="col-md-7 col-xs-12">
-                                <div style={{marginBottom: "2rem"}}>
-                                    <img src="images/kesehatan/prokes.97366c1.jpg" className="w-100" 
-                                    style={{borderRadius: "5px"}} />
-                                </div>
-                                <div className="text-center">
-                                    <small>
-                                    Terima kasih atas pengertian Bapak/Ibu/Saudara/i, semoga dengan melakukan protokol kesehatan di atas, kita semua dapat terjaga dari Covid-19.
-                                    </small>
-                                </div>
+                                    <div style={{marginBottom: "2rem"}}>
+                                        <img src="images/kesehatan/prokes.97366c1.jpg" className="w-100" 
+                                        style={{borderRadius: "5px"}} />
+                                    </div>
+                                    <div className="text-center">
+                                        <small>
+                                        Terima kasih atas pengertian Bapak/Ibu/Saudara/i, semoga dengan melakukan protokol kesehatan di atas, kita semua dapat terjaga dari Covid-19.
+                                        </small>
+                                    </div>
+                                    <br/>
+                                    <div className="text-center">
+                                        <button type="button" className="btn btn-primary" data-dismiss="modal">
+                                            Baik, saya mengerti
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="modal-footer w-100"
+                        {/* <div className="modal-footer w-100"
                         style={{textAlign: "center" , position: "fixed", bottom: 0}}>
                         <button type="button" className="btn btn-primary" data-dismiss="modal">
                             Baik, saya mengerti
                         </button>
-                        </div>
+                        </div> */}
                     </div>
                 )}
             </div>
