@@ -22,7 +22,7 @@ const Rsvp = () => {
                             <div className="text-white">
                                 <button className="btn btn-default btn-block">
                                 Silahkan isi form <a href="https://bit.ly/3uT2Vi2" target="_blank"
-                                style={{color: "#000", textDecoration: "underline"}}>
+                                style={{color: "#000", textDecoration: "underline"}} rel="noreferrer">
                                     <b>disini</b>
                                 </a> (Anda akan dialihkan ke google form)
                                 </button>
