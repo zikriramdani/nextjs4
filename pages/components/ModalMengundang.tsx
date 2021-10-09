@@ -1,8 +1,9 @@
-import bootstrap from "bootstrap";
-import $ from "jquery";
+
 import React, { useState, useEffect } from 'react';
 import { useRouter,  } from 'next/router';
 import queryString from "query-string";
+
+import $ from 'jquery';
 
 const ModalMengundangPage = () => {
     const router = useRouter();
@@ -10,7 +11,7 @@ const ModalMengundangPage = () => {
     const name = query['name'];
 
     const handleModal = () => {
-        $('#staticBackdrop').modal('toggle')
+        window.$('#staticBackdrop').modal('hide');
     };
 
     return (
