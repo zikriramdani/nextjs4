@@ -20,11 +20,13 @@ const Rsvp = () => {
                     <div className="row animate-box">
                         <div className="col-md-10 col-md-offset-1 mb-xs-5">
                             <div className="text-white">
-                                <button className="btn btn-default btn-block">
+                                <button className="btn btn-default btn-block"
+                                style={{padding: "8px", fontSize: "14px"}}>
                                 Silahkan isi form <a href="https://bit.ly/3uT2Vi2" target="_blank"
                                 style={{color: "#000", textDecoration: "underline"}} rel="noreferrer">
                                     <b>disini</b>
-                                </a> (Anda akan dialihkan ke google form)
+                                </a>
+                                <br/>(Anda akan dialihkan ke google form)
                                 </button>
                             </div>
                             {/* <form className="form-inline" action="" method="POST">
