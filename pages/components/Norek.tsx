@@ -71,7 +71,15 @@ const Norek = (e) => {
                     </div>
                     <div className="row animate-box">
                         <div className="col-md-10 col-md-offset-1 mb-xs-5">
-                            <form className="form-inline">
+                            <div className="text-white">
+                                <button className="btn btn-default btn-block">
+                                Silahkan Konfirmasi <a href="https://bit.ly/3iMKEOJ" target="_blank"
+                                style={{color: "#000", textDecoration: "underline"}}>
+                                    <b>disini</b>
+                                </a> (Anda akan dialihkan ke google form)
+                                </button>
+                            </div>
+                            {/* <form className="form-inline">
                                 <div className="col-md-3 col-sm-3">
                                     <div className="form-group">
                                         <label className="sr-only">Name</label>
@@ -94,7 +102,7 @@ const Norek = (e) => {
                                     <button type="submit" className="btn btn-primary w-100"
                                     style={{padding: "15px"}}>Konfirmasi</button>
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>

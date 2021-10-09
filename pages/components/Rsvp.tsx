@@ -19,7 +19,15 @@ const Rsvp = () => {
                     </div>
                     <div className="row animate-box">
                         <div className="col-md-10 col-md-offset-1 mb-xs-5">
-                            <form className="form-inline" action="https://formspree.io/f/xoqpopgw" method="POST">
+                            <div className="text-white">
+                                <button className="btn btn-default btn-block">
+                                Silahkan isi form <a href="https://bit.ly/3uT2Vi2" target="_blank"
+                                style={{color: "#000", textDecoration: "underline"}}>
+                                    <b>disini</b>
+                                </a> (Anda akan dialihkan ke google form)
+                                </button>
+                            </div>
+                            {/* <form className="form-inline" action="" method="POST">
                                 <div className="col-md-6 col-sm-6">
                                     <div className="form-group">
                                         <label className="sr-only">Full Name</label>
@@ -51,7 +59,7 @@ const Rsvp = () => {
                                 <div className="col-md-12 col-sm-4">
                                     <button type="submit" className="btn btn-default btn-block">Submit</button>
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>
