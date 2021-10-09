@@ -66,17 +66,17 @@ const MengundangPage = () => {
         <link rel="stylesheet" href="/css/style.css" />
 
         {/* <!-- Modernizr JS --> */}
-        {/* <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script> */}
+        {/* <Script type="text/javascript" src="js/modernizr-2.6.2.min.js" strategy="beforeInteractive"></Script> */}
         {/* <!-- FOR IE9 below -->
         <!--[if lt IE 9]> */}
-        {/* <Script type="text/javascript" src="js/respond.min.js"></Script> */}
+        {/* <Script type="text/javascript" src="js/respond.min.js" strategy="beforeInteractive"></Script> */}
         {/* <![endif]--> */}
       </Head>
       {/* <!-- Modernizr JS --> */}
-      <Script type="text/javascript" src="js/modernizr-2.6.2.min.js"></Script>
+      <Script type="text/javascript" src="js/modernizr-2.6.2.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- FOR IE9 below -->
       <!--[if lt IE 9]> */}
-      <Script type="text/javascript" src="js/respond.min.js"></Script>
+      <Script type="text/javascript" src="js/respond.min.js" strategy="beforeInteractive"></Script>
       {/* <![endif]--> */}
 
       <BeriHadiah />
@@ -98,30 +98,30 @@ const MengundangPage = () => {
       
 
       {/* <!-- jQuery --> */}
-      <Script src="/js/jquery.min.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- jQuery Easing --> */}
-      <Script src="/js/jquery.easing.1.3.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.easing.1.3.js" strategy="beforeInteractive"></Script>
       {/* <!-- Bootstrap --> */}
-      <Script src="/js/bootstrap.min.js"></Script>
+      <Script type="text/javascript" src="/js/bootstrap.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- Waypoints --> */}
-      <Script src="/js/jquery.waypoints.min.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.waypoints.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- YTPlayer --> */}
-      <Script src="/js/jquery.mb.YTPlayer.min.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.mb.YTPlayer.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- Flexslider --> */}
-      <Script src="/js/jquery.flexslider-min.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.flexslider-min.js" strategy="beforeInteractive"></Script>
       {/* <!-- Owl Carousel --> */}
-      <Script src="/js/owl.carousel.min.js"></Script>
+      <Script type="text/javascript" src="/js/owl.carousel.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- Parallax --> */}
-      <Script src="/js/jquery.stellar.min.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.stellar.min.js" strategy="beforeInteractive"></Script>
       {/* <!-- Magnific Popup --> */}
-      <Script src="/js/jquery.magnific-popup.min.js"></Script>
-      <Script src="/js/magnific-popup-options.js"></Script>
+      <Script type="text/javascript" src="/js/jquery.magnific-popup.min.js" strategy="beforeInteractive"></Script>
+      <Script type="text/javascript" src="/js/magnific-popup-options.js" strategy="beforeInteractive"></Script>
       {/* <!-- Main JS (Do not remove) --> */}
-      <Script src="/js/main.js"></Script>
+      <Script type="text/javascript" src="/js/main.js" strategy="beforeInteractive"></Script>
 
-      <Script src="/js/sticky.js"></Script>
-      <Script src="/js/popup.js"></Script>
-      <Script src="/js/audio.js"></Script>
+      <Script type="text/javascript" src="/js/sticky.js" strategy="beforeInteractive"></Script>
+      <Script type="text/javascript" src="/js/popup.js" strategy="beforeInteractive"></Script>
+      <Script type="text/javascript" src="/js/audio.js" strategy="beforeInteractive"></Script>
 
     </div>
   )
