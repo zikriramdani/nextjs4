@@ -1,3 +1,5 @@
+import bootstrap from "bootstrap";
+import $ from "jquery";
 import React, { useState, useEffect } from 'react';
 import { useRouter,  } from 'next/router';
 import queryString from "query-string";
@@ -7,12 +9,18 @@ const ModalMengundangPage = () => {
     const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
     const name = query['name'];
 
+    const handleModal = () => {
+        $('#staticBackdrop').modal('toggle')
+    };
+
     return (
         <div
             className="modal fade"
             id="staticBackdrop"
+            role="dialog"
             tab-index="-1"
-            aria-labelledby="ModalMengundangLabel"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
             >
             <div className="modal-dialog modal-fullscreen">
                 {name ? (
@@ -49,7 +57,8 @@ const ModalMengundangPage = () => {
                                         <br/>
                                         Tempat
                                         <br/><br/>
-                                        <button type="button" className="btn btn-primary" data-target="#staticBackdrop" data-dismiss="modal">
+                                        <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#ModalProtokol"
+                                        onClick={(e) => handleModal()}>
                                             Buka Undangan
                                         </button>
                                     </div>

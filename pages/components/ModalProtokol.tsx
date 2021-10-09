@@ -3,8 +3,10 @@ const ModalProtokolPage = () => {
         <div
             className="modal fade"
             id="ModalProtokol"
+            role="dialog"
             tab-index="-1"
-            aria-labelledby="staticBackdropLabel"
+            aria-labelledby="ModalProtokolLabel"
+            aria-hidden="true"
             >
             <div className="modal-dialog modal-fullscreen">
                 <div className="modal-content"
