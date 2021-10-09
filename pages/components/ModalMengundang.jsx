@@ -2,16 +2,15 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter,  } from 'next/router';
 import queryString from "query-string";
-
-import $ from 'jquery';
-
+import * as $ from "jquery";
 const ModalMengundangPage = () => {
     const router = useRouter();
     const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
     const name = query['name'];
 
     const handleModal = () => {
-        window.$('#staticBackdrop').modal('hide');
+        const abcd = window.$;
+        abcd('#staticBackdrop').modal('hide');
     };
 
     return (
