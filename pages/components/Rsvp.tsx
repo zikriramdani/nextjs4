@@ -19,7 +19,7 @@ const Rsvp = () => {
                     </div>
                     <div className="row animate-box">
                         <div className="col-md-10 col-md-offset-1 mb-xs-5">
-                            <form className="form-inline">
+                            <form className="form-inline" action="https://formspree.io/f/xoqpopgw" method="POST">
                                 <div className="col-md-6 col-sm-6">
                                     <div className="form-group">
                                         <label className="sr-only">Full Name</label>
