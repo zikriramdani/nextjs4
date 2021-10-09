@@ -34,11 +34,11 @@ const MengundangPage = () => {
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
 
         {/* Facebook and Twitter integration */}
-        <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
-        <meta property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta property="og:description" content="Cipondoh, Kota Tangerang"/>
-        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media"/>
-        <meta property="og:url" content="https://weddingvividanzikri.vercel.app"/>
+        <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
+        <meta name="title" property="og:title" content="Wedding Vivi & Zikri"/>
+        <meta name="description" property="og:description" content="Cipondoh, Kota Tangerang"/>
+        <meta name="image" property="og:image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media"/>
+        <meta name="url" property="og:url" content="https://weddingvividanzikri.vercel.app"/>
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media" />
