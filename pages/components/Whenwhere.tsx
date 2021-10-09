@@ -57,10 +57,10 @@ const WhenwherePage = () => {
                                                 <i className="icon-calendar"></i>
                                                 <b>
                                                     <span style={{color: "#7f7f7f"}}>Saturday</span>
-                                                    <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta"
-                                                    style={{textDecoration: "none"}} rel="noreferrer">
+                                                    {/* <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta"
+                                                    style={{textDecoration: "none"}} rel="noreferrer"> */}
                                                         <span style={{color: "#7f7f7f"}}>00 00. 0000</span>
-                                                    </a>
+                                                    {/* </a> */}
                                                 </b>
                                             </div>
                                         </div>
@@ -101,10 +101,10 @@ const WhenwherePage = () => {
                                                 <i className="icon-calendar"></i>
                                                 <b>
                                                     <span style={{color: "#7f7f7f"}}>Saturday</span>
-                                                    <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta"
-                                                    style={{textDecoration: "none"}} rel="noreferrer">
+                                                    {/* <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta" */}
+                                                    {/* style={{textDecoration: "none"}} rel="noreferrer"> */}
                                                         <span style={{color: "#7f7f7f"}}>00 00. 0000</span>
-                                                    </a>
+                                                    {/* </a> */}
                                                 </b>
                                             </div>
                                         </div>
