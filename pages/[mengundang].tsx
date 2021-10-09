@@ -34,16 +34,15 @@ const MengundangPage = () => {
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
 
         {/* Facebook and Twitter integration */}
-        <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
-        <meta property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta property="og:description" content="Cipondoh, Kota Tangerang"/>
-        <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media"/>
-        <meta property="og:url" content="https://zikriramdani.github.io/wedding2"/>
+        <meta property="site_name" content="Wedding Vivi & Zikri"/>
+        <meta property="title" content="Wedding Vivi & Zikri"/>
+        <meta property="description" content="Cipondoh, Kota Tangerang"/>
+        <meta property="image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media"/>
+        <meta property="url" content="https://weddingvividanzikri.vercel.app"/>
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
-        <meta property="og:description" content="Cipondoh, Kota Tangerang"/>
         <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/vue-js-271d9.appspot.com/o/testingarena%2Fno-image.jpg?alt=media" />
-        <meta name="twitter:url" content="https://zikriramdani.github.io/wedding2" />
+        <meta name="twitter:url" content="https://weddingvividanzikri.vercel.app" />
         <meta name="twitter:card" content="Card" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
