@@ -3,13 +3,22 @@ import Swal from 'sweetalert2'
 
 const Norek = (e) => {
     const myFunctionV = (e) => {
-        const vivi = '5485415316';
-        navigator.clipboard.writeText(vivi);
-        Swal.fire({
-            html: '<h5 style="font-family: sans-serif">BCA 5485415316 a/n Vivi Febriyani A</h5><p class="mb-0">No rekening berhasil dicopy</p>',
-            icon: 'success',
-            allowOutsideClick: false
-        })
+        const isIOSDevice = navigator.userAgent.match(/ipad|iphone/i);
+        if (isIOSDevice) {
+            console.log('a')
+        } else {
+            console.log('b')
+        }
+
+        document.execCommand('copy');
+
+        // const vivi = '5485415316';
+        // navigator.clipboard.writeText(vivi);
+        // Swal.fire({
+        //     html: '<h5 style="font-family: sans-serif">BCA 5485415316 a/n Vivi Febriyani A</h5><p class="mb-0">No rekening berhasil dicopy</p>',
+        //     icon: 'success',
+        //     allowOutsideClick: false
+        // })
     };
 
     const myFunctionZ= (e) => {
