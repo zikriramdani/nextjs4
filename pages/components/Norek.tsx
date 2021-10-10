@@ -6,7 +6,6 @@ const Norek = (e) => {
         const isIOSDevice = navigator.userAgent.match(/ipad|iphone/i);
         if (isIOSDevice) {
             console.log('a')
-            console.log('b')
             const vivi = '5485415316';
             navigator.clipboard.writeText(vivi);
             Swal.fire({
