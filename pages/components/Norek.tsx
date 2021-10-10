@@ -3,7 +3,8 @@ import Swal from 'sweetalert2'
 
 const Norek = (e) => {
     const myFunctionV = (e) => {
-        navigator.clipboard.writeText('5485415316')
+        const vivi = '5485415316';
+        navigator.clipboard.writeText(vivi);
         Swal.fire({
             html: '<h5 style="font-family: sans-serif">BCA 5485415316 a/n Vivi Febriyani A</h5><p class="mb-0">No rekening berhasil dicopy</p>',
             icon: 'success',
@@ -12,7 +13,8 @@ const Norek = (e) => {
     };
 
     const myFunctionZ= (e) => {
-        navigator.clipboard.writeText('8015234527')
+        const zikri = '8015234527';
+        navigator.clipboard.writeText(zikri)
         Swal.fire({
             html: '<h5 style="font-family: sans-serif">BCA 8015234527 a/n Zikri Ramdani</h5><p class="mb-0">No rekening berhasil dicopy</p>',
             icon: 'success',
