@@ -1,4 +1,8 @@
 const Rsvp = () => {
+    const handleClick = () => {
+        window.open('https://bit.ly/3uT2Vi2', "_blank")
+    }
+    
     return (
         <div id="Rsvp" className="tabcontent content-hidden-xs">
             <div id="qbootstrap-started" className="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(/images/cover_bg_1.jpg)", padding: "5em 0"}}>
@@ -21,7 +25,8 @@ const Rsvp = () => {
                         <div className="col-md-10 col-md-offset-1 mb-xs-5">
                             <div className="text-white">
                                 <button className="btn btn-default btn-block"
-                                style={{padding: "8px", fontSize: "14px"}}>
+                                style={{padding: "8px", fontSize: "14px"}}
+                                onClick={handleClick}>
                                 Silahkan isi form <a href="https://bit.ly/3uT2Vi2" target="_blank"
                                 style={{color: "#000", textDecoration: "underline"}} rel="noreferrer">
                                     <b>disini</b>

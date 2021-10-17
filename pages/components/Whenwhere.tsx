@@ -78,8 +78,13 @@ const WhenwherePage = () => {
                                         Tempat:<br/>
                                         <b>Cipondoh, Kota Tangerang</b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics">
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics"
+                                        data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
+                                            <br/>
+                                            <small>Note: <b>Don’t forget to save the date</b></small>
+                                            <br/>
+                                            <small>(Klik disini)</small>
                                         </a>
                                     </p>
                                 </div>
@@ -124,7 +129,12 @@ const WhenwherePage = () => {
                                         <br/>
                                         <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics">
                                             <i className="icon-calendar"></i> Save The Date
+                                            <br/>
+                                            <small>Note: <b>Don’t forget to save the date</b></small>
+                                            <br/>
+                                            <small>(Klik disini)</small>
                                         </a>
+                                        
                                     </p>
                                 </div>
                             </div>
