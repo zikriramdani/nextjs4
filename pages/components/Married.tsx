@@ -14,7 +14,8 @@ const MarriedPage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row animate-box">
+                    <div className="row animate-box"
+                    style={{marginBottom: "3rem"}}>
                         <div className="col-md-8 col-md-offset-2 text-center">
                             <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
                                 <img src="/images/bride.jpg" className="img-responsive" alt="" />
@@ -39,6 +40,16 @@ const MarriedPage = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="row animate-box">
+                        <div className="col-md-8 col-md-offset-2 animate-box">
+                            <div className="col-md-12 text-center section-heading svg-sm colored">
+                                <p>
+                                    Pernikahan adalah ibadah, dan setiap ibadah bermuara pada cinta-Nya sebagai tujuan. Sudah sewajarnya setiap upaya meraih cinta-Nya dilakukan dengan sukacita.		
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

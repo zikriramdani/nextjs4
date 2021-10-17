@@ -50,13 +50,18 @@ const ModalMengundangPage = () => {
                                             Kepada Yang Terhormat Bapak/Ibu/Saudara/i
                                         </small>
                                         <br/>
-                                        <h2 className="mb-0 text-white text-capitalize"
+                                        <h2 className="text-white text-capitalize"
                                         style={{fontFamily: "sans-serif"}}>
                                             {name}
                                         </h2>
-                                        Di
                                         <br/>
-                                        Tempat
+                                        <p className="mb-0" style={{lineHeight: "1.2"}}>
+                                            <small>
+                                                Tanpa Mengurangi Rasa Hormat,
+                                                <br/>
+                                                Kami Mengundang Anda Untuk Berhadir Di Acara Pernikahan Kami.
+                                            </small>
+                                        </p>
                                         <br/><br/>
                                         <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#ModalProtokol"
                                         onClick={(e) => handleModal()}>

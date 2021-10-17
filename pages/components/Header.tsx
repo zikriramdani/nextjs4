@@ -26,7 +26,7 @@ const Header = () => {
                     <ul className="nav navbar-nav navbar-right">
                         <li className="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
                         <li><a href="#" data-nav-section="married"><span>Getting Married</span></a></li>
-                        <li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li>
+                        {/* <li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li> */}
                         <li><a href="#" data-nav-section="when-where"><span>Save The Date</span></a></li>
                         <li><a href="#" data-nav-section="norek"><span>Give A Gift</span></a></li>
                         <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
@@ -55,11 +55,11 @@ const Header = () => {
                             <span>Getting</span>
                         </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a onClick={(e) => handleClick(e, 'Groombride')} className="nav-link mb-xs-0">
                             <span>Groom</span>
                         </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item text-truncate ">
                         <a onClick={(e) => handleClick(e, 'Whenwhere')} className="nav-link mb-xs-0 text-truncate">
                             <span>Save date</span>

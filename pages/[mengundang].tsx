@@ -83,7 +83,7 @@ const MengundangPage = () => {
       <Header/>
       <HomePage />
       <MarriedPage />
-      <GroomBridePage />
+      {/* <GroomBridePage /> */}
       <WhenwherePage />
       <NorekPage />
       <RsvpPage />
