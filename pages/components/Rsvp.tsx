@@ -29,7 +29,7 @@ const Rsvp = () => {
                                 onClick={handleClick}>
                                 Silahkan isi form <a href="https://bit.ly/3uT2Vi2" target="_blank"
                                 style={{color: "#000", textDecoration: "underline"}} rel="noreferrer">
-                                    <b>disini</b>
+                                    <b>(Klik disini)</b>
                                 </a>
                                 <br/>(Anda akan dialihkan ke google form)
                                 </button>

@@ -104,7 +104,7 @@ const Norek = (e) => {
                                 style={{padding: "8px"}}>
                                 Silahkan Konfirmasi <a href="https://bit.ly/3iMKEOJ" target="_blank"
                                 style={{color: "#000", textDecoration: "underline"}} rel="noreferrer">
-                                    <b>disini</b>
+                                    <b>(Klik disini)</b>
                                 </a>
                                 <br/>(Anda akan dialihkan ke google form)
                                 </button>
