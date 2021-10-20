@@ -1,4 +1,5 @@
 const webpack = require('webpack')
+const withPWA = require("next-pwa");
 
 module.exports = {
   reactStrictMode: true,
@@ -18,16 +19,10 @@ module.exports = {
   // },
 }
 
-
-
-// module.exports = {
-//     webpack: (config, { dev }) => {
-//         config.plugins.push(
-//             new webpack.ProvidePlugin({
-//                 '$': 'jquery',
-//                 'jQuery': 'jquery',
-//             })
-//         )
-//         return config
-//     }
-// }
+module.exports = withPWA({
+  pwa: {
+    dest: "public",
+    register: true,
+    skipWaiting: true,
+  },
+});

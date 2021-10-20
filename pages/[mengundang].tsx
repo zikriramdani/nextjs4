@@ -27,6 +27,9 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icon-512x512.png"></link>
+        <meta name="theme-color" content="#fff" />
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />

@@ -6,12 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "next build && NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@types/react": "^17.0.27",
+    "express": "^4.17.1",
     "jquery": "^3.6.0",
     "next": "11.1.2",
+    "next-offline": "^5.0.5",
+    "next-pwa": "^5.4.0",
     "query-string": "^7.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
