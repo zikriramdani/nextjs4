@@ -7,14 +7,15 @@ const WhenwherePage = () => {
                     <div className="row animate-box">
                         <div className="col-md-12 text-center section-heading svg-sm colored"
                         style={{ paddingBottom: 0, marginBottom: 0}}>
-                            <h2>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h2>
+                            <p className="mb-0">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
                             <div className="row">
                                 <div className="col-md-10 col-md-offset-1 subtext">
                                     <p>Assalamualaikum Warahmatullahi Wabarakatuh</p>
-                                    <h3>
+                                    <small>
                                         وَمِنۡ اٰيٰتِهٖۤ اَنۡ خَلَقَ لَكُمۡ مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
-                                    </h3>
-                                    <p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (QS. Ar-Rum Ayat 21)</p>
+                                    </small>
+                                    <br/>
+                                    <small>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (QS. Ar-Rum Ayat 21)</small>
                                 </div>
                             </div>
                         </div>
