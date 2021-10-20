@@ -8,7 +8,7 @@ const MarriedPage = () => {
                             <div className="col-md-12 text-center section-heading svg-sm colored">
                                 <img src="images/flaticon/svg/005-two.svg" className="svg" alt=""
                                 style={{marginBottom: 0}} />
-                                <h2 style={{marginTop: 0}}>Are Getting Married</h2>
+                                <h2 style={{marginTop: 0}}>Mempelai</h2>
                                 <strong>Assalamualaikum Warahmatullahi Wabarakatuh</strong>
                                 <p>Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan Resepsi Pernikahan putra-putri kami:</p>
                             </div>

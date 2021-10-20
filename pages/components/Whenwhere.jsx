@@ -29,7 +29,7 @@ const WhenwherePage = () => {
                             <div className="col-md-12 text-center section-heading svg-sm colored">
                                 <img src="/images/flaticon/svg/005-two.svg" className="svg" alt="Wedding Vivi & Zikri" />
                                 <h2
-                                style={{paddingTop: "20px"}}>Ceremony &amp; Reception</h2>
+                                style={{paddingTop: "20px"}}>Acara</h2>
                                 <div className="row">
                                 <div className="col-md-10 col-md-offset-1 subtext">
                                     <p>
@@ -45,7 +45,7 @@ const WhenwherePage = () => {
                             <div className="wedding-events">
                                 {/* <!-- <div className="ceremony-bg" style="background-image: url(images/wed-ceremony.jpg);"></div> --> */}
                                 <div className="desc">
-                                    <h3>Wedding Ceremony</h3>
+                                    <h3>Akad Nikah</h3>
                                     <div className="row">
                                         <div className="col-md-2 col-md-push-5">
                                             <div className="icon-tip">
@@ -82,8 +82,8 @@ const WhenwherePage = () => {
                                         data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
-                                            <small>Note: <b>Don’t forget to save the date</b></small>
-                                            <br/>
+                                            {/* <small>Note: <b>Don’t forget to save the date</b></small>
+                                            <br/> */}
                                             <small>(Klik disini)</small>
                                         </a>
                                     </p>
@@ -94,7 +94,7 @@ const WhenwherePage = () => {
                             <div className="wedding-events">
                                 {/* <!-- <div className="ceremony-bg" style="background-image: url(images/wed-party.jpg);"></div> --> */}
                                 <div className="desc">
-                                    <h3>Wedding Reception</h3>
+                                    <h3>Resepsi</h3>
                                     <div className="row">
                                         <div className="col-md-2 col-md-push-5">
                                             <div className="icon-tip">
@@ -130,8 +130,8 @@ const WhenwherePage = () => {
                                         <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
-                                            <small>Note: <b>Don’t forget to save the date</b></small>
-                                            <br/>
+                                            {/* <small>Note: <b>Don’t forget to save the date</b></small>
+                                            <br/> */}
                                             <small>(Klik disini)</small>
                                         </a>
                                         
@@ -146,7 +146,7 @@ const WhenwherePage = () => {
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.593954986052!2d106.66886190922621!3d-6.204317962542935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9ac84ded1a7%3A0x80164c563c3cabec!2sKec.%20Cipondoh%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1631832189201!5m2!1sid!2sid" height="450" style={{border: 0}} loading="lazy" className="w-100"></iframe>
                                 <div className="text-center" style={{marginTop: "15px"}}>
                                     <a target="_blank" href="https://goo.gl/maps/6fJxuFDN73eECjzV8" className="btn btn-primary" rel="noreferrer">
-                                        GET DIRECTIONS <i className="icon-paper-plane-o"></i>
+                                        Buka Google Maps <i className="icon-paper-plane-o"></i>
                                     </a>
                                 </div>
                             </div>

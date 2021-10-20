@@ -24,10 +24,10 @@ const Header = () => {
                     </div>
                     <div id="navbar" className="navbar-collapse collapse">
                     <ul className="nav navbar-nav navbar-right">
-                        <li className="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-                        <li><a href="#" data-nav-section="married"><span>Getting Married</span></a></li>
+                        <li className="active"><a href="#" data-nav-section="home"><span>Sampul</span></a></li>
+                        <li><a href="#" data-nav-section="married"><span>Mempelai</span></a></li>
                         {/* <li><a href="#" data-nav-section="groom-bride"><span>Groom &amp; Bride</span></a></li> */}
-                        <li><a href="#" data-nav-section="when-where"><span>Save The Date</span></a></li>
+                        <li><a href="#" data-nav-section="when-where"><span>Acara</span></a></li>
                         <li><a href="#" data-nav-section="norek"><span>Give A Gift</span></a></li>
                         <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
                         <li><a href="#" data-nav-section="gallery"><span>Gallery</span></a></li>
@@ -52,7 +52,7 @@ const Header = () => {
                     </li>
                     <li className="nav-item">
                         <a onClick={(e) => handleClick(e, 'Married')} className="nav-link mb-xs-0">
-                            <span>Getting</span>
+                            <span>Mempelai</span>
                         </a>
                     </li>
                     {/* <li className="nav-item">
@@ -62,7 +62,7 @@ const Header = () => {
                     </li> */}
                     <li className="nav-item text-truncate ">
                         <a onClick={(e) => handleClick(e, 'Whenwhere')} className="nav-link mb-xs-0 text-truncate">
-                            <span>Save date</span>
+                            <span>Acara</span>
                         </a>
                     </li>
                     <li className="nav-item">
