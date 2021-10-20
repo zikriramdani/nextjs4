@@ -19,6 +19,8 @@ import Footer from './components/Footer';
 import ModalMengundangPage from './components/ModalMengundang';
 import ModalProtokolPage from './components/ModalProtokol';
 
+import manifest from '../public/manifest.json';
+
 const MengundangPage = () => {
   const router = useRouter();
   const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
@@ -30,8 +32,9 @@ const MengundangPage = () => {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
-        start_url: `/${query}`,
+        start_url: `/mengundang?name=${query['name']}`,
       });
+      console.log('asd', manifestString)
       manifestElement?.setAttribute(
         "href",
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
@@ -42,12 +45,13 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
-        <link rel="manifest" crossOrigin="use-credentials" href="/manifest.json" id="manifest" />
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
+
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
 
         {/* Facebook and Twitter integration */}
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
