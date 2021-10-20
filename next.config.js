@@ -4,7 +4,7 @@ const securityHeaders = []
 
 module.exports = {
   reactStrictMode: true,
-  webpack: (config, { dev }) => {
+  webpack: (config, { isServer, buildId, dev }) => {
     config.plugins.push(
         new webpack.ProvidePlugin({
             '$': 'jquery',

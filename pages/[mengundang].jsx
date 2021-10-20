@@ -27,7 +27,7 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
