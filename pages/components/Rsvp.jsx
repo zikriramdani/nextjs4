@@ -15,7 +15,7 @@ const Rsvp = () => {
                                 <h2>RSVP</h2>
                                 <div className="row">
                                 <div className="col-md-10 col-md-offset-1 subtext">
-                                    <p className="text-white">Ucapan Selamat & Doa <br/>untuk Vivi Febiryani A & Zikri Ramdani</p>
+                                    <p className="text-white">Ucapan Selamat & Doa <br/>untuk Vivi Febriyani A & Zikri Ramdani</p>
                                 </div>
                             </div>
                             </div>
