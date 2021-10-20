@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/components/Whenwhere.jsx", "pages/components/Rsvp.jsx", "pages/components/Norek.jsx", "pages/components/Musik.jsx", "pages/components/ModalProtokol.jsx", "pages/components/Married.jsx", "pages/components/Home.jsx", "pages/index.jsx", "pages/components/Header.jsx", "pages/components/GroomBride.js", "pages/components/Gallery.js", "pages/components/Footer.js", "pages/[mengundang].js"  ],
   "exclude": [
     "node_modules"
   ]
