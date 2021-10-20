@@ -23,11 +23,25 @@ const MengundangPage = () => {
   const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
   const name = query['name'];
   // console.log('asd', query)
+
+  useEffect(() => {
+    if (query) {
+      const manifestElement = document.getElementById("manifest");
+      const manifestString = JSON.stringify({
+        ...manifest,
+        start_url: `/${query}`,
+      });
+      manifestElement?.setAttribute(
+        "href",
+        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+      );
+    }
+  }, [query]);
   
   return (
     <div>
       <Head>
-        <link rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
+        <link rel="manifest" crossOrigin="use-credentials" href="/manifest.json" id="manifest" />
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
