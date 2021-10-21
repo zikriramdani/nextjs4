@@ -27,21 +27,20 @@ const MengundangPage = () => {
   const name = query['name'];
   // console.log('asd', query)
 
-  // useEffect(() => {
-  //   if (query) {
-  //     const manifestElement = document.getElementById("manifest");
-  //     const manifestString = JSON.stringify({
-  //       ...manifest,
-  //       scope: router.asPath,
-  //       start_url: router.asPath,
-  //     });
-  //     console.log('asdas', router)
-  //     manifestElement?.setAttribute(
-  //       "href",
-  //       "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
-  //     );
-  //   }
-  // }, [query]);
+  useEffect(() => {
+    if (query) {
+      const manifestElement = document.getElementById("manifest");
+      const manifestString = JSON.stringify({
+        ...manifest,
+        scope: router.asPath,
+        start_url: router.asPath,
+      });
+      manifestElement?.setAttribute(
+        "href",
+        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+      );
+    }
+  }, [query]);
   
   return (
     <div>
@@ -52,7 +51,7 @@ const MengundangPage = () => {
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
 
-        <link id="manifest" rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
 
         {/* Facebook and Twitter integration */}
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
