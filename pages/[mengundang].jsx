@@ -26,7 +26,7 @@ const MengundangPage = () => {
   // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
   useEffect(() => {
-    if (router.asPath) {
+    if (router.pathname) {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
@@ -39,7 +39,7 @@ const MengundangPage = () => {
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
       );
     }
-  }, [router.asPath]);
+  }, [router.pathname]);
   
   return (
     <div>
