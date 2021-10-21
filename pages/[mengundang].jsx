@@ -33,7 +33,7 @@ const MengundangPage = () => {
         scope: router.pathname,
         start_url: router.pathname,
       });
-      console.log('asd', router)
+      console.log('asd', router.pathname)
       manifestElement?.setAttribute(
         "href",
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)

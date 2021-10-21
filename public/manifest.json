@@ -2,8 +2,8 @@
   "theme_color": "#000",
   "background_color": "#fff",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/mengundang?name=Zikri",
+  "start_url": "/mengundang?name=Zikri",
   "name": "Wedding Vivi & Zikri",
   "short_name": "Vivi & Zikri",
   "icons": [
