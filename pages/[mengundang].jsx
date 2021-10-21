@@ -36,7 +36,7 @@ const MengundangPage = () => {
       console.log('asd', manifestString)
       manifestElement?.setAttribute(
         "href",
-        "data:application/json;charset=utf-8," + encodeURIComponent(manifest),
+        "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(manifest)),
       );
     }
   }, [query]);
