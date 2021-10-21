@@ -31,8 +31,8 @@ const MengundangPage = () => {
         "theme_color": "#000",
         "background_color": "#fff",
         "display": "standalone",
-        "scope": "/",
-        "start_url": "/",
+        "scope": router.asPath,
+        "start_url": router.asPath,
         "name": "Wedding Vivi & Zikri",
         "short_name": "Vivi & Zikri",
         "icons": [
