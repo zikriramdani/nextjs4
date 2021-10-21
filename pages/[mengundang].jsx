@@ -25,24 +25,23 @@ const MengundangPage = () => {
   const router = useRouter();
   // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
-  useEffect(() => {
-    if (router) {
-      var domain = document.location.origin;
-      var currentUrl = window. location. href;
+  // useEffect(() => {
+  //   if (router) {
+  //     var domain = document.location.origin;
+  //     var currentUrl = window. location. href;
 
-      const manifestElement = document.getElementById("manifest");
-      const manifestString = JSON.stringify({
-        ...manifest,
-        scope: ".",
-        start_url: currentUrl,
-      });
-      console.log('asd', currentUrl)
-      manifestElement?.setAttribute(
-        "href",
-        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
-      );
-    }
-  }, [router]);
+  //     const manifestElement = document.getElementById("manifest");
+  //     const manifestString = JSON.stringify({
+  //       ...manifest,
+  //       start_url: currentUrl,
+  //     });
+  //     console.log('asd', currentUrl)
+  //     manifestElement?.setAttribute(
+  //       "href",
+  //       "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
+  //     );
+  //   }
+  // }, [router]);
   
   return (
     <div>
