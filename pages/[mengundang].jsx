@@ -27,21 +27,21 @@ const MengundangPage = () => {
   const name = query['name'];
   // console.log('asd', query)
 
-  useEffect(() => {
-    if (query) {
-      const manifestElement = document.getElementById("manifest");
-      const manifestString = JSON.stringify({
-        ...manifest,
-        scope: '/',
-        start_url: '/',
-      });
-      console.log('asdas', router)
-      manifestElement?.setAttribute(
-        "href",
-        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
-      );
-    }
-  }, [query]);
+  // useEffect(() => {
+  //   if (query) {
+  //     const manifestElement = document.getElementById("manifest");
+  //     const manifestString = JSON.stringify({
+  //       ...manifest,
+  //       scope: router.asPath,
+  //       start_url: router.asPath,
+  //     });
+  //     console.log('asdas', router)
+  //     manifestElement?.setAttribute(
+  //       "href",
+  //       "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+  //     );
+  //   }
+  // }, [query]);
   
   return (
     <div>
