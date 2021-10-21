@@ -29,7 +29,6 @@ const MengundangPage = () => {
 
   useEffect(() => {
     if (query) {
-      // if(${query['name'÷]})
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
