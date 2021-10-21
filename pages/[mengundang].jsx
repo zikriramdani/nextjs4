@@ -32,6 +32,7 @@ const MengundangPage = () => {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
+        scope: router.asPath,
         start_url: router.asPath,
       });
       manifestElement?.setAttribute(
