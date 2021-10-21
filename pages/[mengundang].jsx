@@ -32,9 +32,10 @@ const MengundangPage = () => {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
-        scope: router.asPath,
-        start_url: router.asPath,
+        scope: '/',
+        start_url: '/',
       });
+      console.log('asdas', router)
       manifestElement?.setAttribute(
         "href",
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
