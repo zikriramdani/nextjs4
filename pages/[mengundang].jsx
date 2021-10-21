@@ -28,18 +28,20 @@ const MengundangPage = () => {
   useEffect(() => {
     var domain = document.location.origin;
     var currentUrl = window. location. href;
-    
-    const manifestElement = document.getElementById("manifest");
-    const manifestString = JSON.stringify({
-      ...manifest,
-      start_url: currentUrl,
-    });
-    console.log('asd', currentUrl)
-    manifestElement?.setAttribute(
-      "href",
-      "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
-    );
-  }, []);
+
+    if(router) {
+      const manifestElement = document.getElementById("manifest");
+      const manifestString = JSON.stringify({
+        ...manifest,
+        start_url: currentUrl,
+      });
+      console.log('asd', currentUrl)
+      manifestElement?.setAttribute(
+        "href",
+        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
+      );
+    }
+  }, [router]);
   
   return (
     <div>
@@ -50,7 +52,7 @@ const MengundangPage = () => {
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
 
-        <link id="manifest" rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
 
         {/* Facebook and Twitter integration */}
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
