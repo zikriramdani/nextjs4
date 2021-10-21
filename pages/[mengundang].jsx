@@ -85,7 +85,7 @@ const MengundangPage = () => {
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
 
-        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
 
         {/* Facebook and Twitter integration */}
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
