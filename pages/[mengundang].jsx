@@ -24,21 +24,19 @@ import manifest from '../public/manifest.json';
 const MengundangPage = () => {
   const router = useRouter();
   const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
-  const name = query['name'];
-  // console.log('asd', query)
 
   useEffect(() => {
     if (query) {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
-        scope: '/',
-        start_url: '/',
+        scope: router.asPath,
+        start_url: router.asPath,
       });
       console.log('asd', manifestString)
       manifestElement?.setAttribute(
         "href",
-        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+        "data:application/json;charset=utf-8," + encodeURIComponent(JSON.stringify(manifestString)),
       );
     }
   }, [query]);
