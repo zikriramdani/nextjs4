@@ -23,58 +23,23 @@ import manifest from '../public/manifest.json';
 
 const MengundangPage = () => {
   const router = useRouter();
-  const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
+  // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
   useEffect(() => {
-    if (router) {
-      // var myDynamicManifest = {
-      //   "theme_color": "#000",
-      //   "background_color": "#fff",
-      //   "display": "standalone",
-      //   "scope": router.asPath,
-      //   "start_url": router.asPath,
-      //   "name": "Wedding Vivi & Zikri",
-      //   "short_name": "Vivi & Zikri",
-      //   "icons": [
-      //       {
-      //           "src": "/icon-192x192.png",
-      //           "sizes": "192x192",
-      //           "type": "image/png"
-      //       },
-      //       {
-      //           "src": "/icon-256x256.png",
-      //           "sizes": "256x256",
-      //           "type": "image/png"
-      //       },
-      //       {
-      //           "src": "/icon-384x384.png",
-      //           "sizes": "384x384",
-      //           "type": "image/png"
-      //       },
-      //       {
-      //           "src": "/icon-512x512.png",
-      //           "sizes": "512x512",
-      //           "type": "image/png"
-      //       }
-      //   ]
-      // }
-      // const link = document.createElement("link");
-      // link.rel = "manifest";    
-      // const stringManifest = JSON.stringify(myDynamicManifest);
-      // link.setAttribute('href', 'data:application/json;charset=utf-8,' + encodeURIComponent(stringManifest))
-      // document.head.appendChild(link);
+    if (router.asPath) {
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
-        start_url: router.asPath,
+        scope: router.basePath + router.asPath,
+        start_url: router.basePath + router.asPath,
       });
       console.log('asd', manifestString)
       manifestElement?.setAttribute(
         "href",
-        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
       );
     }
-  }, [router]);
+  }, [router.asPath]);
   
   return (
     <div>
