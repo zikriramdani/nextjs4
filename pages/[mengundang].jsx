@@ -26,20 +26,23 @@ const MengundangPage = () => {
   // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
   useEffect(() => {
-    if (router.pathname) {
+    if (router) {
+      var domain = document.location.origin;
+      var currentUrl = window. location. href;
+
       const manifestElement = document.getElementById("manifest");
       const manifestString = JSON.stringify({
         ...manifest,
-        scope: router.pathname,
-        start_url: router.pathname,
+        scope: ".",
+        start_url: currentUrl,
       });
-      console.log('asd', router.pathname)
+      console.log('asd', currentUrl)
       manifestElement?.setAttribute(
         "href",
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
       );
     }
-  }, [router.pathname]);
+  }, [router]);
   
   return (
     <div>
