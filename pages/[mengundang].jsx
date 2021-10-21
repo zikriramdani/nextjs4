@@ -27,20 +27,20 @@ const MengundangPage = () => {
   const name = query['name'];
   // console.log('asd', query)
 
-  // useEffect(() => {
-  //   if (query) {
-  //     const manifestElement = document.getElementById("manifest");
-  //     const manifestString = JSON.stringify({
-  //       ...manifest,
-  //       start_url: `/mengundang?name=${query['name']}`,
-  //     });
-  //     console.log('asd', manifestString)
-  //     manifestElement?.setAttribute(
-  //       "href",
-  //       "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
-  //     );
-  //   }
-  // }, [query]);
+  useEffect(() => {
+    if (query) {
+      // if(${query['name'÷]})
+      const manifestElement = document.getElementById("manifest");
+      const manifestString = JSON.stringify({
+        ...manifest,
+        start_url: router.asPath,
+      });
+      manifestElement?.setAttribute(
+        "href",
+        "data:application/json;charset=utf-8," + encodeURIComponent(manifestString),
+      );
+    }
+  }, [query]);
   
   return (
     <div>
