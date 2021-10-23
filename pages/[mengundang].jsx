@@ -79,6 +79,7 @@ const MengundangPage = () => {
         <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
         
         <meta name="image" property="og:image" content={dom + "/images/vividanzikri/IMG_9740-min.png"} />
+        <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.png"} /> 
         <meta name="url" property="og:url" content={url} />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
@@ -92,6 +93,7 @@ const MengundangPage = () => {
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content={dom + "/images/vividanzikri/IMG_9740-min.png"} />
+        <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.png"} /> 
         <meta name="twitter:url" content={url} />
         <meta name="twitter:card" content="Card" />
 
