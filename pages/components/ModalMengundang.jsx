@@ -47,7 +47,7 @@ const ModalMengundangPage = () => {
                                 <div className="col-xs-12">
                                     <div className="text-center">
                                         <small>
-                                            Kepada Yang Terhormat Bapak/Ibu/Saudara/i
+                                            Kepada Yth. Bapak/Ibu/Saudara/i
                                         </small>
                                         <br/>
                                         <h2 className="text-white text-capitalize"
