@@ -54,7 +54,10 @@ const ModalMengundangPage = () => {
                                         style={{fontFamily: "sans-serif"}}>
                                             {name}
                                         </h2>
-                                        <br/>
+                                        <small style={{fontSize: "65%"}}>
+                                            Mohon maaf apabila ada kesalahan dalam penulisan nama atau gelar
+                                        </small>
+                                        <br/><br/><br/>
                                         <p className="mb-0" style={{lineHeight: "1.2"}}>
                                             <small>
                                                 Tanpa Mengurangi Rasa Hormat,
