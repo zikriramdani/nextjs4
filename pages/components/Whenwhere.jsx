@@ -81,7 +81,7 @@ const WhenwherePage = () => {
                                             Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/2Zibk2E" rel="noreferrer"
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3Gb4TQ6" rel="noreferrer"
                                         data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
@@ -132,7 +132,7 @@ const WhenwherePage = () => {
                                             Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/2Zibk2E" rel="noreferrer">
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3Gb4TQ6" rel="noreferrer">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
                                             {/* <small>Note: <b>Don’t forget to save the date</b></small>
