@@ -23,11 +23,13 @@ import manifest from '../public/manifest.json';
 
 const MengundangPage = () => {
   const router = useRouter();
+  const [url, setUrl] = useState('');
   // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
   useEffect(() => {
     var domain = document.location.origin;
     var currentUrl = window. location. href;
+    setUrl(currentUrl)
 
     if(router) {
       const manifestElement = document.getElementById("manifest");
@@ -57,13 +59,15 @@ const MengundangPage = () => {
           }
         ]
       });
-      console.log('asd', currentUrl)
+      // console.log('asd', currentUrl)
       manifestElement?.setAttribute(
         "href",
         "data:application/json;charset=utf-8," + encodeURIComponent(manifestString)
       );
     }
   }, [router]);
+
+  // console.log('asda', url)
   
   return (
     <div>
@@ -79,13 +83,13 @@ const MengundangPage = () => {
         {/* Facebook and Twitter integration */}
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta name="title" property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta name="description" property="og:description" content="Cipondoh, Kota Tangerang"/>
+        <meta name="description" property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
         <meta name="image" property="og:image" content="/images/vividanzikri/IMG_9740-min.png"/>
-        <meta name="url" property="og:url" content="https://weddingvividanzikri.vercel.app"/>
+        <meta name="url" property="og:url" content={url} />
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content="/images/vividanzikri/IMG_9740-min.png" />
-        <meta name="twitter:url" content="https://weddingvividanzikri.vercel.app" />
+        <meta name="twitter:url" content={url} />
         <meta name="twitter:card" content="Card" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />

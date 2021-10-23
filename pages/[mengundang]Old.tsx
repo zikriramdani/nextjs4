@@ -8,8 +8,8 @@ const MengundangPage = () => {
   const router = useRouter();
   const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
   const name = query['name'];
-  console.log('asd', router)
-  console.log('asdf', name)
+  // console.log('asd', router)
+  // console.log('asdf', name)
   
   return (
     <div className={styles.container}>
