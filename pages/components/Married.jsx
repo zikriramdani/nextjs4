@@ -22,7 +22,9 @@ const MarriedPage = () => {
                                 <img src="/images/vividanzikri/vivi800x800.png" className="img-responsive" alt="" />
                                 <h3>Vivi Febriyani A</h3>
                                 <small>
-                                    Putri pertama dari Bapak ...
+                                    Putri pertama
+                                    <br/>
+                                    dari Bpk ...
                                 </small>
                                 {/* <span>Bride</span> */}
                             </div>
@@ -36,7 +38,9 @@ const MarriedPage = () => {
                                 <img src="/images/vividanzikri/zikri800x800.png" className="img-responsive" alt="" />
                                 <h3>Zikri Ramdani</h3>
                                 <small>
-                                    Putra kedua dari Bapak ...
+                                    Putra kedua
+                                    <br/>
+                                    dari Bpk. Samsudin & Ibu Murtini
                                 </small>
                                 {/* <span>Groom</span> */}
                             </div>
