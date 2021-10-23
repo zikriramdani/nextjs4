@@ -18,7 +18,8 @@ const MarriedPage = () => {
                     style={{marginBottom: "3rem"}}>
                         <div className="col-md-8 col-md-offset-2 text-center">
                             <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
-                                <img src="/images/bride.jpg" className="img-responsive" alt="" />
+                                {/* <img src="/images/bride.jpg" className="img-responsive" alt="" /> */}
+                                <img src="/images/vividanzikri/vivi800x800.png" className="img-responsive" alt="" />
                                 <h3>Vivi Febriyani A</h3>
                                 <small>
                                     Putri pertama dari Bapak ...
@@ -31,7 +32,8 @@ const MarriedPage = () => {
                                 </h2>
                             </div>
                             <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
-                                <img src="/images/groom.jpg" className="img-responsive" alt="" />
+                                {/* <img src="/images/groom.jpg" className="img-responsive" alt="" /> */}
+                                <img src="/images/vividanzikri/zikri800x800.png" className="img-responsive" alt="" />
                                 <h3>Zikri Ramdani</h3>
                                 <small>
                                     Putra kedua dari Bapak ...

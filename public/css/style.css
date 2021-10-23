@@ -348,6 +348,22 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;/*3em 0;*/
   }
 }
+.rsvp {
+  background-position: 50% 25% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 480px) {
+  .qbootstrap-cover,
+  .video-hero {
+    /* background-position: -333px 0px !important; */
+    background-position: center !important;
+  }
+
+  .rsvp {
+    background-position: 20% !important;
+  }
+}
 .qbootstrap-cover .display-t,
 .video-hero .display-t {
   display: table;

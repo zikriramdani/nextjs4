@@ -5,7 +5,8 @@ const Rsvp = () => {
     
     return (
         <div id="Rsvp" className="tabcontent content-hidden-xs">
-            <div id="qbootstrap-started" className="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(/images/cover_bg_1.jpg)", padding: "5em 0"}}>
+            {/* <div id="qbootstrap-started" className="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(/images/cover_bg_1.jpg)", padding: "5em 0"}}> */}
+            <div id="qbootstrap-started" className="rsvp" data-section="rsvp" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(/images/vividanzikri/IMG_9722-min.png)", padding: "5em 0"}}>
                 <div className="overlay"></div>
                 <div className="container">
                     <div className="row animate-box">

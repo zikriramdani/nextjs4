@@ -3,7 +3,8 @@ const HomePage = () => {
         <div id="Home" className="tabcontent">
             <div className="qbootstrap-hero" data-section="home">
                 <div className="qbootstrap-overlay"></div>
-                <div className="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(images/cover_bg_3.jpg)"}}>
+                {/* <div className="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(images/cover_bg_3.jpg)"}}> */}
+                <div className="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style={{backgroundImage: "url(/images/vividanzikri/IMG_9684-min.png)"}}>
                     <div className="display-t">
                         <div className="display-tc">
                             <div className="container">
