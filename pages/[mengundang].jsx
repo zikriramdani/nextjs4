@@ -24,12 +24,14 @@ import manifest from '../public/manifest.json';
 const MengundangPage = () => {
   const router = useRouter();
   const [url, setUrl] = useState('');
+  const [dom, setDom] = useState('');
   // const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
 
   useEffect(() => {
     var domain = document.location.origin;
     var currentUrl = window. location. href;
-    setUrl(currentUrl)
+    setUrl(currentUrl);
+    setDom(domain);
 
     if(router) {
       const manifestElement = document.getElementById("manifest");
@@ -76,7 +78,7 @@ const MengundangPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
-        <link rel="icon" href="/images/flaticon/svg/003-luxury.svg" />
+        <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
 
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
 
@@ -84,11 +86,11 @@ const MengundangPage = () => {
         <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta name="title" property="og:title" content="Wedding Vivi & Zikri"/>
         <meta name="description" property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
-        <meta name="image" property="og:image" content="/images/vividanzikri/IMG_9740-min.png"/>
+        <meta name="image" property="og:image" content={dom + "/images/vividanzikri/IMG_9740-min.png"} />
         <meta name="url" property="og:url" content={url} />
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
-        <meta name="twitter:image" content="/images/vividanzikri/IMG_9740-min.png" />
+        <meta name="twitter:image" content={dom + "/images/vividanzikri/IMG_9740-min.png"} />
         <meta name="twitter:url" content={url} />
         <meta name="twitter:card" content="Card" />
 
