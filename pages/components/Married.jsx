@@ -24,7 +24,7 @@ const MarriedPage = () => {
                                 <small>
                                     Putri pertama
                                     <br/>
-                                    dari Bpk ...
+                                    dari Bpk. Ahmad Yani & Ibu Titin Prihatin
                                 </small>
                                 {/* <span>Bride</span> */}
                             </div>

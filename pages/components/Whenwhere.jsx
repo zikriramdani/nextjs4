@@ -77,9 +77,11 @@ const WhenwherePage = () => {
                                     </div>
                                     <p>
                                         Tempat:<br/>
-                                        <b>Cipondoh, Kota Tangerang</b>
+                                        <b>
+                                            Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
+                                        </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics"
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/30Y9Zzf"
                                         data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
@@ -126,9 +128,11 @@ const WhenwherePage = () => {
                                     </div>
                                     <p>
                                         Tempat:<br/>
-                                        <b>Cipondoh, Kota Tangerang</b>
+                                        <b>
+                                            Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
+                                        </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="calender/Wedding Vivi & Zikri_vividanzikri@gmail.com.ics">
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/30Y9Zzf">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
                                             {/* <small>Note: <b>Don’t forget to save the date</b></small>
@@ -144,9 +148,9 @@ const WhenwherePage = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div id="map" className="qbootstrap-map mb-xs-5">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.593954986052!2d106.66886190922621!3d-6.204317962542935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9ac84ded1a7%3A0x80164c563c3cabec!2sKec.%20Cipondoh%2C%20Kota%20Tangerang%2C%20Banten!5e0!3m2!1sid!2sid!4v1631832189201!5m2!1sid!2sid" height="450" style={{border: 0}} loading="lazy" className="w-100"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.510202573641!2d106.67707921476897!3d-6.196212795514341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTEnNDYuNCJTIDEwNsKwNDAnNDUuNCJF!5e0!3m2!1sid!2sid!4v1634982096065!5m2!1sid!2sid" height="450" style={{border: 0}} loading="lazy" className="w-100"></iframe>
                                 <div className="text-center" style={{marginTop: "15px"}}>
-                                    <a target="_blank" href="https://goo.gl/maps/6fJxuFDN73eECjzV8" className="btn btn-primary" rel="noreferrer">
+                                    <a target="_blank" href="https://bit.ly/3m7QD2B" className="btn btn-primary" rel="noreferrer">
                                         Buka Google Maps <i className="icon-paper-plane-o"></i>
                                     </a>
                                 </div>
