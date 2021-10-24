@@ -81,14 +81,28 @@ const MengundangPage = () => {
         <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
         <title>Wedding Vivi & Zikri</title>
-        {/* Open Graph */}
-        <meta property="og:updated_time" content="updatedtime" />
-        <meta property="og:url" content={dom} key="ogurl" />
-        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="ogimage" />
+        {/* <!-- MS Tile - for Microsoft apps--> */}
+        <meta name="msapplication-TileImage" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />    
 
+        {/* Open Graph */}
+        {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Wedding Vivi & Zikri" key="ogsitename"/>
         <meta property="og:title" content="Wedding Vivi & Zikri" key="ogtitle"/>
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
+
+        {/* <!-- Image to display --> */}
+        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="ogimage" />
+
+        {/* <!-- No need to change anything here --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:image:type" content="image/jpeg" />
+
+        {/* <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp --> */}
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+
+        <meta property="og:updated_time" content="updatedtime" />
+        <meta property="og:url" content={dom} key="ogurl" />
 
         {/* Twitter */}
         <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="twcard" />
@@ -128,6 +142,11 @@ const MengundangPage = () => {
       <!--[if lt IE 9]> */}
       <Script type="text/javascript" src="js/respond.min.js" strategy="beforeInteractive"></Script>
       {/* <![endif]--> */}
+
+      <link itemProp="thumbnailUrl" href={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
+      <span itemProp="thumbnail" itemScope itemType="http://schema.org/ImageObject"> 
+        <link itemProp="url" href={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
+      </span>
 
       <BeriHadiah />
       <Musik />
