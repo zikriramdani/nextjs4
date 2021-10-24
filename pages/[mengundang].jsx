@@ -75,24 +75,26 @@ const MengundangPage = () => {
     <>
     <div>
       <Head>
-        <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
+        <title>Wedding Vivi & Zikri</title>
+        {/* Open Graph */}
         <meta property="og:updated_time" content="updatedtime" />
-        <meta property="og:url" content={dom} />
+        <meta property="og:url" content={dom} key="ogurl" />
+        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="ogimage" />
 
-        <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
-        <meta property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
+        <meta property="og:site_name" content="Wedding Vivi & Zikri" key="ogsitename"/>
+        <meta property="og:title" content="Wedding Vivi & Zikri" key="ogtitle"/>
+        <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
 
-        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-
-        <meta name="twitter:title" content="Wedding Vivi & Zikri" />
+        {/* Twitter */}
+        <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="twcard" />
         <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-        <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
+        <meta name="twitter:creator" content="Wedding Vivi & Zikri" key="twhandle" />
+        <meta name="twitter:title" content="Wedding Vivi & Zikri" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" />
