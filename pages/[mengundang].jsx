@@ -80,8 +80,8 @@ const MengundangPage = () => {
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image:type" content="image/jpeg" />
+        {/* <meta property="og:type" content="website" /> */}
+        {/* <meta property="og:image:type" content="image/jpeg" /> */}
         <meta property="og:updated_time" content="updatedtime" />
         <meta property="og:url" content={dom} />
 
