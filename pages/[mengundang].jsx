@@ -74,7 +74,6 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
-        
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
@@ -90,7 +89,7 @@ const MengundangPage = () => {
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />
-        <meta name="twitter:card" content="Card" />
+        <meta name="twitter:card" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />
         {/* <meta name="twitter:url" content={url} /> */}
         {/* <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />  */}
 
