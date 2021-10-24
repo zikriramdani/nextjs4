@@ -83,18 +83,19 @@ const MengundangPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:updated_time" content="updatedtime" />
+        <meta property="og:url" content={dom} />
         
         {/* Facebook integration */}
         <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
+        <meta property="og:image" content="/images/vividanzikri/thumbnail.jpeg" />
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
         <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
 
         {/* Twitter integration */}
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
-        <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-        <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
+        <meta name="twitter:image" content="/images/vividanzikri/thumbnail.jpeg" />
+        <meta name="twitter:card" content="/images/vividanzikri/thumbnail.jpeg" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" />
