@@ -74,28 +74,35 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
+        <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Wedding Vivi & Zikri</title>
-        <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
         
-        <meta name="image" property="og:image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/IMG_9740-min.jpg" />
-        <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} /> 
-        <meta name="url" property="og:url" content={url} />
-        <meta name="keywords" content="Wedding Vivi dan Zikri" />
-        <meta name="author" content="Zikri Ramdani" />
+
         
-        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
+        
+        
+        
+        
 
         {/* Facebook and Twitter integration */}
-        <meta name="site_name" property="og:site_name" content="Wedding Vivi & Zikri"/>
-        <meta name="title" property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta name="description" property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
+        <meta name="keywords" content="Wedding Vivi dan Zikri" />
+        <meta name="author" content="Zikri Ramdani" />
+        <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
+        <meta property="og:title" content="Wedding Vivi & Zikri"/>
+        <meta property="og:image" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />
+        <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
+        {/* <meta name="url" property="og:url" content={url} /> */}
+        {/* <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />  */}
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
-        <meta name="twitter:image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/IMG_9740-min.jpg" />
-        <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} /> 
-        <meta name="twitter:url" content={url} />
+        <meta name="twitter:image" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />
         <meta name="twitter:card" content="Card" />
+        {/* <meta name="twitter:url" content={url} /> */}
+        {/* <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />  */}
+
+        <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" />
