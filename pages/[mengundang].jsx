@@ -84,8 +84,7 @@ const MengundangPage = () => {
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:updated_time" content="updatedtime" />
         <meta property="og:url" content={dom} />
-        
-        {/* Facebook integration */}
+
         <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta property="og:title" content="Wedding Vivi & Zikri"/>
         <meta property="og:image" content="/images/vividanzikri/thumbnail.jpeg" />
@@ -93,8 +92,7 @@ const MengundangPage = () => {
         <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="400" />
-
-        {/* Twitter integration */}
+        
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content="/images/vividanzikri/thumbnail.jpeg" />
         <meta name="twitter:card" content="/images/vividanzikri/thumbnail.jpeg" />
