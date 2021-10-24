@@ -21,6 +21,9 @@ import ModalProtokolPage from './components/ModalProtokol';
 
 import manifest from '../public/manifest.json';
 
+/* Root stylesheet */
+import '../public/css/style.css';
+
 const MengundangPage = () => {
   const router = useRouter();
   const [url, setUrl] = useState('');
@@ -82,10 +85,10 @@ const MengundangPage = () => {
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
         <title>Wedding Vivi & Zikri</title>
         {/* <!-- MS Tile - for Microsoft apps--> */}
-        <meta name="msapplication-TileImage" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" />   
+        <meta name="msapplication-TileImage" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" />   
 
         <meta name content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" />
-        <meta itemProp="image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" /> 
+        <meta itemProp="image" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" /> 
 
         {/* Open Graph */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
@@ -94,15 +97,15 @@ const MengundangPage = () => {
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
         
         {/* <!-- Image to display --> */}
-        <meta property="og:image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" key="ogimage" />
-        <meta property="og:image:url" itemProp="image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" />
+        <meta property="og:image" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" key="ogimage" />
+        <meta property="og:image:url" itemProp="image" content="https://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" />
 
         <meta property="og:updated_time" content="updatedtime" />
         <meta property="og:url" content={dom} key="ogurl" />
 
         {/* Twitter */}
-        <meta name="twitter:card" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" key="twcard" />
-        <meta name="twitter:image" content="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" />
+        <meta name="twitter:card" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" key="twcard" />
+        <meta name="twitter:image" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" />
         <meta name="twitter:creator" content="Wedding Vivi & Zikri" key="twhandle" />
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
 
@@ -123,7 +126,7 @@ const MengundangPage = () => {
         {/* <!-- Bootstrap  --> */}
         <link rel="stylesheet" href="/css/bootstrap.css" />
         
-        <link rel="stylesheet" href="/css/style.css" />
+        {/* <link rel="stylesheet" href="/css/style.css" /> */}
 
         {/* <!-- Modernizr JS --> */}
         {/* <Script type="text/javascript" src="js/modernizr-2.6.2.min.js" strategy="beforeInteractive"></Script> */}
@@ -139,9 +142,9 @@ const MengundangPage = () => {
       <Script type="text/javascript" src="js/respond.min.js" strategy="beforeInteractive"></Script>
       {/* <![endif]--> */}
 
-      <link itemProp="thumbnailUrl" href="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" /> 
+      <link itemProp="thumbnailUrl" href="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" /> 
       <span itemProp="thumbnail" itemScope itemType="http://schema.org/ImageObject"> 
-        <link itemProp="url" href="http://weddingvividanzikri.netlify.app/images/vividanzikri/thumbnail.jpeg" /> 
+        <link itemProp="url" href="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" /> 
       </span>
 
       <BeriHadiah />
