@@ -74,17 +74,10 @@ const MengundangPage = () => {
   return (
     <div>
       <Head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
         <title>Wedding Vivi & Zikri</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         
-
-        
-        
-        
-        
-        
-
         {/* Facebook and Twitter integration */}
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
