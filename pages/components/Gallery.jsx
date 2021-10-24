@@ -64,7 +64,7 @@ const GalleryPage = () => {
                                     alt=""
                                     src="/images/vividanzikri/IMG_9673-min.png" // use normal <img> attributes as props
                                     />
-                                    <img src="/images/vividanzikri/IMG_9673-min.png" className="img-responsive" alt="" />
+                                    {/* <img src="/images/vividanzikri/IMG_9673-min.png" className="img-responsive" alt="" /> */}
                                 </a>
                             </div>
                             
