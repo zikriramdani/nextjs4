@@ -82,25 +82,20 @@ const MengundangPage = () => {
         <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
         <title>Wedding Vivi & Zikri</title>
         {/* <!-- MS Tile - for Microsoft apps--> */}
-        <meta name="msapplication-TileImage" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />    
+        <meta name="msapplication-TileImage" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />   
+
+        <meta name content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" />
+        <meta itemProp="image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
 
         {/* Open Graph */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Wedding Vivi & Zikri" key="ogsitename"/>
         <meta property="og:title" content="Wedding Vivi & Zikri" key="ogtitle"/>
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
-
+        
         {/* <!-- Image to display --> */}
         <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="ogimage" />
         <meta property="og:image:url" itemProp="image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-
-        {/* <!-- No need to change anything here --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:image:type" content="image/jpeg" />
-
-        {/* <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp --> */}
-        <meta property="og:image:width" content="300" />
-        <meta property="og:image:height" content="300" />
 
         <meta property="og:updated_time" content="updatedtime" />
         <meta property="og:url" content={dom} key="ogurl" />
