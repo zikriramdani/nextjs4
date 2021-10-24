@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const ModalProtokolPage = () => {
     return (
         <div
@@ -23,8 +25,14 @@ const ModalProtokolPage = () => {
                         style={{marginTop: "1rem"}}>
                             <div className="col-md-7 col-xs-12">
                                 <div style={{marginBottom: "2rem"}}>
-                                    <img src="/images/kesehatan/prokes.97366c1.jpg" className="w-100" 
-                                    style={{borderRadius: "5px"}} alt="Wedding Vivi & Zikri" />
+                                    <LazyLoadImage
+                                    className="w-100" 
+                                    effect="black-and-white"
+                                    src="/images/kesehatan/prokes.97366c1.jpg"
+                                    style={{borderRadius: "5px"}} alt="Wedding Vivi & Zikri" // use normal <img> attributes as props
+                                    />
+                                    {/* <img src="/images/kesehatan/prokes.97366c1.jpg" className="w-100" 
+                                    style={{borderRadius: "5px"}} alt="Wedding Vivi & Zikri" /> */}
                                 </div>
                                 <div className="text-center">
                                     <small>

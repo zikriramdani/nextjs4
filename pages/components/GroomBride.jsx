@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const GroomBridePage = () => {
     return (
         <div id="Groombride" className="tabcontent content-hidden-xs">
@@ -17,7 +19,12 @@ const GroomBridePage = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="couple groom text-center animate-box">
-                                <img src="images/bride.jpg" className="img-responsive" alt="" />
+                                <LazyLoadImage
+                                effect="black-and-white"
+                                alt=""
+                                src="images/bride.jpg" className="img-responsive" // use normal <img> attributes as props
+                                />
+                                {/* <img src="images/bride.jpg" className="img-responsive" alt="" /> */}
                                 <div className="desc">
                                     <h2>Vivi Febriyani A</h2>
                                     {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda vero totam eum, necessitatibus reprehenderit nisi, ratione neque aspernatur sapiente minus? Omnis neque labore distinctio aspernatur esse impedit laboriosam, veritatis dolorem!</p> --> */}
@@ -26,7 +33,12 @@ const GroomBridePage = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="couple bride text-center animate-box mb-xs-5">
-                                <img src="/images/groom.jpg" className="img-responsive" alt="" />
+                                <LazyLoadImage
+                                effect="black-and-white"
+                                alt=""
+                                src="/images/groom.jpg" className="img-responsive" // use normal <img> attributes as props
+                                />
+                                {/* <img src="/images/groom.jpg" className="img-responsive" alt="" /> */}
                                 <div className="desc">
                                     <h2>Zikri Ramdani</h2>
                                     {/* <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda vero totam eum, necessitatibus reprehenderit nisi, ratione neque aspernatur sapiente minus? Omnis neque labore distinctio aspernatur esse impedit laboriosam, veritatis dolorem!</p> --> */}

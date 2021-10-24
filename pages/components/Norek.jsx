@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 
 const Norek = (e) => {
     const myFunctionV = (e) => {
@@ -70,8 +70,8 @@ const Norek = (e) => {
                     </div>
                     <div className="row animate-box row-bottom-padded-md">
                         <div className="col-md-6 col-xs-12 text-center animate-box mb-xs-5">
+                            <img src="images/norekvivi.jpg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
                             <div className="subtext">
-                                <img src="images/norekvivi.jpg" width="200" alt="Wedding Vivi & Zikri" style={{borderRadius: 0}} />
                                 <p>
                                     Silahkan transfer ke rekening<br/>
                                     <b>BCA 5485415316 a/n Vivi Febriyani A</b>
