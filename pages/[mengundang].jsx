@@ -92,6 +92,7 @@ const MengundangPage = () => {
 
         {/* <!-- Image to display --> */}
         <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} key="ogimage" />
+        <meta property="og:image:url" itemProp="image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
 
         {/* <!-- No need to change anything here --> */}
         <meta property="og:type" content="website" />
