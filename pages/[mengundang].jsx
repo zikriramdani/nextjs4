@@ -72,6 +72,7 @@ const MengundangPage = () => {
   // console.log('asda', dom + "/images/vividanzikri/IMG_9740-min.png")
   
   return (
+    <>
     <div>
       <Head>
         <title>Wedding Vivi & Zikri</title>
@@ -175,6 +176,7 @@ const MengundangPage = () => {
       <Script type="text/javascript" src="/js/audio.js" strategy="beforeInteractive"></Script>
 
     </div>
+    </>
   )
 }
 
