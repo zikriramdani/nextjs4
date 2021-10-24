@@ -89,11 +89,8 @@ const MengundangPage = () => {
         <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta property="og:title" content="Wedding Vivi & Zikri"/>
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
-        
+
         <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-        <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="400" />
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
