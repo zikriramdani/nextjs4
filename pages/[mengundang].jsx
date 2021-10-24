@@ -82,14 +82,14 @@ const MengundangPage = () => {
         <meta name="author" content="Zikri Ramdani" />
         <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta property="og:title" content="Wedding Vivi & Zikri"/>
-        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.png"} />
+        <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
         {/* <meta name="url" property="og:url" content={url} /> */}
-        <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.png"} /> 
+        <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
 
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
-        <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.png"} />
-        <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.png"} />
+        <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
+        <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
         {/* <meta name="twitter:url" content={url} /> */}
         {/* <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />  */}
 
