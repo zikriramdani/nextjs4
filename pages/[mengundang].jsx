@@ -76,25 +76,25 @@ const MengundangPage = () => {
       <Head>
         <title>Wedding Vivi & Zikri</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        {/* Facebook and Twitter integration */}
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
+        <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
+        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:updated_time" content="updatedtime" />
+        
+        {/* Facebook integration */}
         <meta property="og:site_name" content="Wedding Vivi & Zikri"/>
         <meta property="og:title" content="Wedding Vivi & Zikri"/>
         <meta property="og:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
         <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang"/>
-        {/* <meta name="url" property="og:url" content={url} /> */}
         <meta property="og:image:secure_url" content={dom + "/images/vividanzikri/thumbnail.jpeg"} /> 
 
+        {/* Twitter integration */}
         <meta name="twitter:title" content="Wedding Vivi & Zikri" />
         <meta name="twitter:image" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
         <meta name="twitter:card" content={dom + "/images/vividanzikri/thumbnail.jpeg"} />
-        {/* <meta name="twitter:url" content={url} /> */}
-        {/* <meta name="twitter:image:secure_url" content={dom + "/images/vividanzikri/IMG_9740-min.jpg"} />  */}
-
-        <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
-        <link id="manifest" rel="manifest" crossOrigin="use-credentials" />
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet" />
