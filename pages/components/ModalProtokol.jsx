@@ -27,7 +27,7 @@ const ModalProtokolPage = () => {
                                 <div style={{marginBottom: "2rem"}}>
                                     <LazyLoadImage
                                     className="w-100" 
-                                    effect="black-and-white"
+                                    effect="blur"
                                     src="/images/kesehatan/prokes.97366c1.jpg"
                                     style={{borderRadius: "5px"}} alt="Wedding Vivi & Zikri" // use normal <img> attributes as props
                                     />

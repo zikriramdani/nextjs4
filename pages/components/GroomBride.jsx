@@ -20,7 +20,7 @@ const GroomBridePage = () => {
                         <div className="col-md-6">
                             <div className="couple groom text-center animate-box">
                                 <LazyLoadImage
-                                effect="black-and-white"
+                                effect="blur"
                                 alt=""
                                 src="images/bride.jpg" className="img-responsive" // use normal <img> attributes as props
                                 />
@@ -34,7 +34,7 @@ const GroomBridePage = () => {
                         <div className="col-md-6">
                             <div className="couple bride text-center animate-box mb-xs-5">
                                 <LazyLoadImage
-                                effect="black-and-white"
+                                effect="blur"
                                 alt=""
                                 src="/images/groom.jpg" className="img-responsive" // use normal <img> attributes as props
                                 />

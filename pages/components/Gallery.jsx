@@ -25,7 +25,7 @@ const GalleryPage = () => {
                             <div className="gallery animate-box">
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9740-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9740-min.png" // use normal <img> attributes as props
                                     />
@@ -36,7 +36,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-3.jpg"><img src="/images/gallery-3.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9726-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9726-min.png" // use normal <img> attributes as props
                                     />
@@ -47,7 +47,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-4.jpg"><img src="/images/gallery-4.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9729-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9729-min.png" // use normal <img> attributes as props
                                     />
@@ -60,7 +60,7 @@ const GalleryPage = () => {
                                 {/* <a className="gallery-img image-popup image-popup" href="images/gallery-1.jpg"><img src="/images/gallery-1.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup image-popup" href="images/vividanzikri/IMG_9673-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9673-min.png" // use normal <img> attributes as props
                                     />
@@ -72,7 +72,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-2.jpg"><img src="/images/gallery-2.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9710-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9710-min.png" // use normal <img> attributes as props
                                     />
@@ -89,7 +89,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-7.jpg"><img src="/images/gallery-7.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9724-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9724-min.png" // use normal <img> attributes as props
                                     />
@@ -100,7 +100,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-6.jpg"><img src="/images/gallery-6.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9705-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9705-min.png" // use normal <img> attributes as props
                                     />
@@ -117,7 +117,7 @@ const GalleryPage = () => {
                                 {/* <a className="gallery-img image-popup" href="images/gallery-10.jpg"><img src="/images/gallery-10.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9693-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9693-min.png" // use normal <img> attributes as props
                                     />
@@ -128,7 +128,7 @@ const GalleryPage = () => {
                             {/* <a className="gallery-img image-popup" href="images/gallery-9.jpg"><img src="/images/gallery-9.jpg" className="img-responsive" alt="" /></a> */}
                                 <a className="gallery-img image-popup" href="images/vividanzikri/IMG_9738-min.png">
                                     <LazyLoadImage
-                                    effect="black-and-white"
+                                    effect="blur"
                                     alt=""
                                     src="/images/vividanzikri/IMG_9738-min.png" // use normal <img> attributes as props
                                     />
