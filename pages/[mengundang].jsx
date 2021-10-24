@@ -75,7 +75,7 @@ const MengundangPage = () => {
     <div>
       <Head>
         <title>Wedding Vivi & Zikri</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Wedding Vivi dan Zikri" />
         <meta name="author" content="Zikri Ramdani" />
         <link rel="icon" href={dom + "/images/flaticon/svg/003-luxury.svg"} />
