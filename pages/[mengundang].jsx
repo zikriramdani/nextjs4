@@ -21,9 +21,6 @@ import ModalProtokolPage from './components/ModalProtokol';
 
 import manifest from '../public/manifest.json';
 
-/* Root stylesheet */
-import '../public/css/style.css';
-
 const MengundangPage = () => {
   const router = useRouter();
   const [url, setUrl] = useState('');
@@ -126,7 +123,7 @@ const MengundangPage = () => {
         {/* <!-- Bootstrap  --> */}
         <link rel="stylesheet" href="/css/bootstrap.css" />
         
-        {/* <link rel="stylesheet" href="/css/style.css" /> */}
+        <link rel="stylesheet" href="/css/style.css" />
 
         {/* <!-- Modernizr JS --> */}
         {/* <Script type="text/javascript" src="js/modernizr-2.6.2.min.js" strategy="beforeInteractive"></Script> */}
