@@ -1,7 +1,7 @@
 const WhenwherePage = () => {
     return (
         <div id="Whenwhere" className="tabcontent content-hidden-xs">
-            <div id="qbootstrap-when-where" data-section="when-where"
+            {/* <div id="qbootstrap-when-where" data-section="when-where"
             style={{paddingBottom: 0}}>
                 <div className="container">
                     <div className="row animate-box">
@@ -21,9 +21,8 @@ const WhenwherePage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="qbootstrap-when-where" data-section="when-where"
-            style={{paddingTop: 0}}>
+            </div> */}
+            <div id="qbootstrap-when-where" data-section="when-where">
                 <div className="container">
                     <div className="row animate-box">
                         <div className="col-md-8 col-md-offset-2">

@@ -9,8 +9,9 @@ const MarriedPage = () => {
                                 <img src="images/flaticon/svg/005-two.svg" className="svg" alt=""
                                 style={{marginBottom: 0}} />
                                 <h2 style={{marginTop: 0}}>Mempelai</h2>
+                                <p className="mb-0">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
                                 <strong>Assalamualaikum Warahmatullahi Wabarakatuh</strong>
-                                <p>Dengan memohon Ridho serta Rahmat Allah SWT, kami bermaksud menyelenggarakan Resepsi Pernikahan putra-putri kami:</p>
+                                <p>Dengan memohon rahmat dan ridho Allah SWT,<br/>Kami bermaksud menyelenggarakan pernikahan putra dan putri kami:</p>
                             </div>
                         </div>
                     </div>
@@ -49,8 +50,11 @@ const MarriedPage = () => {
                     <div className="row animate-box">
                         <div className="col-md-8 col-md-offset-2 animate-box">
                             <div className="col-md-12 text-center section-heading svg-sm colored">
+                                <p style={{marginBottom: "0.5em"}}>
+                                    وَمِنۡ اٰيٰتِهٖۤ اَنۡ خَلَقَ لَكُمۡ مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
+                                </p>
                                 <p>
-                                    Pernikahan adalah ibadah, dan setiap ibadah bermuara pada cinta-Nya sebagai tujuan. Sudah sewajarnya setiap upaya meraih cinta-Nya dilakukan dengan sukacita.		
+                                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (QS. Ar-Rum Ayat 21)
                                 </p>
                             </div>
                         </div>
