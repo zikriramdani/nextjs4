@@ -56,10 +56,10 @@ const WhenwherePage = () => {
                                             <div className="date">
                                                 <i className="icon-calendar"></i>
                                                 <b>
-                                                    <span style={{color: "#7f7f7f"}}>Saturday</span>
+                                                    <span style={{color: "#7f7f7f"}}>Rabu,</span>
                                                     {/* <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta"
                                                     style={{textDecoration: "none"}} rel="noreferrer"> */}
-                                                        <span style={{color: "#7f7f7f"}}>00 00. 0000</span>
+                                                        <span style={{color: "#7f7f7f"}}>15 Desember 2021</span>
                                                     {/* </a> */}
                                                 </b>
                                             </div>
@@ -68,8 +68,8 @@ const WhenwherePage = () => {
                                             <div className="date">
                                                 <i className="icon-clock2"></i>
                                                 <b>
-                                                    <span style={{color: "#7f7f7f"}}>10:00</span>
-                                                    <span style={{color: "#7f7f7f"}}>11:00</span>
+                                                    <span style={{color: "#7f7f7f"}}>10:00 AM</span>
+                                                    <span style={{color: "#7f7f7f"}}>11:00 AM</span>
                                                 </b>
                                             </div>
                                         </div>
@@ -107,10 +107,10 @@ const WhenwherePage = () => {
                                             <div className="date">
                                                 <i className="icon-calendar"></i>
                                                 <b>
-                                                    <span style={{color: "#7f7f7f"}}>Saturday</span>
+                                                    <span style={{color: "#7f7f7f"}}>Rabu,</span>
                                                     {/* <a target="_blank" href="https://calendar.google.com/calendar/embed?src=vividanzikri%40gmail.com&ctz=Asia%2FJakarta" */}
                                                     {/* style={{textDecoration: "none"}} rel="noreferrer"> */}
-                                                        <span style={{color: "#7f7f7f"}}>00 00. 0000</span>
+                                                        <span style={{color: "#7f7f7f"}}>15 Desember 2021</span>
                                                     {/* </a> */}
                                                 </b>
                                             </div>
