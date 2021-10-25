@@ -22,11 +22,11 @@ const MarriedPage = () => {
                                 {/* <img src="/images/bride.jpg" className="img-responsive" alt="" /> */}
                                 <img src="/images/vividanzikri/vivi800x800.png" className="img-responsive" alt="" />
                                 <h3>Vivi Febriyani A</h3>
-                                <small>
+                                <p className="mb-0" style={{fontSize: "65%"}}>
                                     Putri pertama
                                     <br/>
                                     dari Bpk. Ahmad Yani & Ibu Titin Prihatin
-                                </small>
+                                </p>
                                 {/* <span>Bride</span> */}
                             </div>
                             <div className="col-md-2 col-sm-2 col-xs-2 nopadding">
@@ -38,11 +38,11 @@ const MarriedPage = () => {
                                 {/* <img src="/images/groom.jpg" className="img-responsive" alt="" /> */}
                                 <img src="/images/vividanzikri/zikri800x800.png" className="img-responsive" alt="" />
                                 <h3>Zikri Ramdani</h3>
-                                <small>
+                                <p className="mb-0" style={{fontSize: "65%"}}>
                                     Putra kedua
                                     <br/>
                                     dari Bpk. Samsudin & Ibu Murtini
-                                </small>
+                                </p>
                                 {/* <span>Groom</span> */}
                             </div>
                         </div>
@@ -53,9 +53,9 @@ const MarriedPage = () => {
                                 <p style={{marginBottom: "0.5em"}}>
                                     وَمِنۡ اٰيٰتِهٖۤ اَنۡ خَلَقَ لَكُمۡ مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
                                 </p>
-                                <p>
-                                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (QS. Ar-Rum Ayat 21)
-                                </p>
+                                <small>
+                                    Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (<b>QS. Ar-Rum Ayat 21</b>)
+                                </small>
                             </div>
                         </div>
                     </div>
