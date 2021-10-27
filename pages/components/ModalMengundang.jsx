@@ -50,10 +50,12 @@ const ModalMengundangPage = () => {
                                             Kepada Yth. Bapak/Ibu/Saudara/i
                                         </small>
                                         <br/>
-                                        <h2 className="text-white text-capitalize"
+                                        {/* <h2 className="text-white text-capitalize"
                                         style={{fontFamily: "sans-serif"}}>
                                             {name}
-                                        </h2>
+                                        </h2> */}
+                                        <h2 class="typewrite text-white text-capitalize" data-period="2000" data-type={`[ "${name}" ]`}
+                                        style={{fontFamily: "sans-serif"}}></h2>
                                         <small style={{fontSize: "65%"}}>
                                             Mohon maaf apabila ada kesalahan dalam penulisan nama atau gelar
                                         </small>

@@ -187,6 +187,7 @@ const MengundangPage = () => {
       <Script type="text/javascript" src="/js/sticky.js" strategy="beforeInteractive"></Script>
       <Script type="text/javascript" src="/js/popup.js" strategy="beforeInteractive"></Script>
       <Script type="text/javascript" src="/js/audio.js" strategy="beforeInteractive"></Script>
+      <Script type="text/javascript" src="/js/text-animasi.js" strategy="beforeInteractive"></Script>
 
     </div>
     </>
