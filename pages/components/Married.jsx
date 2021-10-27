@@ -11,7 +11,7 @@ const MarriedPage = () => {
                                 <h2 style={{marginTop: 0}}>Mempelai</h2>
                                 <p className="mb-0">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
                                 <strong>Assalamualaikum Warahmatullahi Wabarakatuh</strong>
-                                <p>Dengan memohon rahmat dan ridho Allah SWT,<br/>Kami bermaksud menyelenggarakan pernikahan putra dan putri kami:</p>
+                                <p>Dengan memohon Rahmat dan Ridho Allah SWT, Kami bermaksud menyelenggarakan Pernikahan Putra dan Putri kami:</p>
                             </div>
                         </div>
                     </div>
