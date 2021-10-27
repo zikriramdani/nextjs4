@@ -54,7 +54,7 @@ const ModalMengundangPage = () => {
                                         style={{fontFamily: "sans-serif"}}>
                                             {name}
                                         </h2> */}
-                                        <h2 className="typewrite text-white text-capitalize" data-period="2000" data-type={`[ "${name}" ]`}
+                                        <h2 className="typewrite text-white text-capitalize" data-period="10000" data-type={`[ "${name}" ]`}
                                         style={{fontFamily: "sans-serif"}}></h2>
                                         <small style={{fontSize: "65%"}}>
                                             Mohon maaf apabila ada kesalahan dalam penulisan nama atau gelar
