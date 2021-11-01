@@ -10,8 +10,12 @@ const MarriedPage = () => {
                                 style={{marginBottom: 0}} />
                                 <h2 style={{marginTop: 0}}>Mempelai</h2>
                                 <p className="mb-0">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</p>
-                                <strong>Assalamualaikum Warahmatullahi Wabarakatuh</strong>
-                                <p>Dengan memohon Rahmat dan Ridho Allah SWT, Kami bermaksud menyelenggarakan Pernikahan Putra dan Putri kami:</p>
+                                <strong>Assalamu'alaikum Warahmatullahi Wabarakatuh</strong>
+                                <p>
+                                    Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan,
+                                    <br/>
+                                    semoga ridha-Mu tercurah mengiringi pernikahan putra putri kami:
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -23,7 +27,7 @@ const MarriedPage = () => {
                                 <img src="/images/vividanzikri/vivi800x800.png" className="img-responsive" alt="" />
                                 <h3>Vivi Febriyani A</h3>
                                 <p className="mb-0" style={{fontSize: "65%"}}>
-                                    Putri pertama
+                                    Putri Pertama
                                     <br/>
                                     dari Bpk. Ahmad Yani & Ibu Titin Prihatin
                                 </p>
@@ -39,7 +43,7 @@ const MarriedPage = () => {
                                 <img src="/images/vividanzikri/zikri800x800.png" className="img-responsive" alt="" />
                                 <h3>Zikri Ramdani</h3>
                                 <p className="mb-0" style={{fontSize: "65%"}}>
-                                    Putra kedua
+                                    Putra Kedua
                                     <br/>
                                     dari Bpk. Samsudin & Ibu Murtini
                                 </p>
@@ -56,6 +60,8 @@ const MarriedPage = () => {
                                 <small>
                                     Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (<b>QS. Ar-Rum Ayat 21</b>)
                                 </small>
+                                <br/><br/>
+                                <strong>Wassalamu'alaikum Warahmatullahi Wabarakatuh</strong>
                             </div>
                         </div>
                     </div>

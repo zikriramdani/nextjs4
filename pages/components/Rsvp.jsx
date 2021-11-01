@@ -17,12 +17,11 @@ const Rsvp = () => {
                                 <div className="row">
                                 <div className="col-md-10 col-md-offset-1 subtext">
                                     <p className="text-white">
-                                        Ucapan Selamat & Doa <br/>untuk Vivi Febriyani A & Zikri Ramdani
+                                        Ucapan Selamat & Do'a <br/>untuk Vivi Febriyani A & Zikri Ramdani
                                     </p>
                                     <small className="text-white">
-                                        Suatu Kehormatan dan Kebahagiaan Bagi Kami,
-                                        
-                                        Apabila Bapak/Ibu/Saudara/i Berkenan Hadir Untuk memberikan Doa Restu Kepada Kami.
+                                        Merupakan suatu kehormatan dan kebahagiaan bagi kami,
+                                        Apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a & restu kepada kedua mempelai.
                                     </small>
                                 </div>
                             </div>

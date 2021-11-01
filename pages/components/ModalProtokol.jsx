@@ -1,6 +1,15 @@
+import React, { useState, useEffect } from 'react';
+import { useRouter,  } from 'next/router';
+import queryString from "query-string";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ModalProtokolPage = () => {
+    const router = useRouter();
+    const query = router.query = queryString.parse(router.asPath.split(/\?/)[1]); // Destructuring our router object
+    const name = query['name'];
+
+    const [names, setName] = useState(name);
+    
     return (
         <div
             className="modal fade"

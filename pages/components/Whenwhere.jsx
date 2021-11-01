@@ -31,12 +31,12 @@ const WhenwherePage = () => {
                                 <h2
                                 style={{paddingTop: "20px"}}>Acara</h2>
                                 <div className="row">
-                                <div className="col-md-10 col-md-offset-1 subtext">
-                                    <p>
-                                        Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.
-                                    </p>
+                                    <div className="col-md-10 col-md-offset-1 subtext">
+                                        <p>
+                                            Do'a restu Anda Merupakan karunia yang sangat berarti bagi kami.
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
