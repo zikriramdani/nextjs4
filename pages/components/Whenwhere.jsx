@@ -68,8 +68,8 @@ const WhenwherePage = () => {
                                             <div className="date">
                                                 <i className="icon-clock2"></i>
                                                 <b>
-                                                    <span style={{color: "#7f7f7f"}}>10:00 AM</span>
-                                                    <span style={{color: "#7f7f7f"}}>11:00 AM</span>
+                                                    <span style={{color: "#7f7f7f"}}>09:00</span>
+                                                    {/* <span style={{color: "#7f7f7f"}}>11:00</span> */}
                                                 </b>
                                             </div>
                                         </div>
@@ -80,7 +80,7 @@ const WhenwherePage = () => {
                                             Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3Gb4TQ6" rel="noreferrer"
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer"
                                         data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
@@ -118,10 +118,11 @@ const WhenwherePage = () => {
                                         <div className="col-md-5 col-md-pull-1">
                                             <div className="date">
                                                 <i className="icon-clock2"></i>
-                                                <b>
-                                                    <span style={{color: "#7f7f7f"}}>10:00 AM</span>
-                                                    <span style={{color: "#7f7f7f"}}>11:00 AM</span>
-                                                </b>
+                                                <span style={{color: "#7f7f7f"}}>
+                                                    <b>11.00</b>
+                                                    <small> s/d </small>
+                                                    <b>19.00</b>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +132,7 @@ const WhenwherePage = () => {
                                             Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3Gb4TQ6" rel="noreferrer">
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
                                             {/* <small>Note: <b>Don’t forget to save the date</b></small>
