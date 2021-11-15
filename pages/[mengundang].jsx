@@ -84,14 +84,14 @@ const MengundangPage = () => {
         {/* <!-- MS Tile - for Microsoft apps--> */}
         <meta name="msapplication-TileImage" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" />   
 
-        <meta name content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" />
+        <meta name content="Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang" />
         <meta itemProp="image" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" /> 
 
         {/* Open Graph */}
         {/* <!-- Site Name, Title, and Description to be displayed --> */}
         <meta property="og:site_name" content="Wedding Vivi & Zikri" key="ogsitename"/>
         <meta property="og:title" content="Wedding Vivi & Zikri" key="ogtitle"/>
-        <meta property="og:description" content="Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
+        <meta property="og:description" content="Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang" key="ogdesc" />
         
         {/* <!-- Image to display --> */}
         <meta property="og:image" content="http://weddingvividanzikri.herokuapp.com/images/vividanzikri/thumbnail.jpeg" key="ogimage" />

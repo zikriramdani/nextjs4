@@ -68,7 +68,7 @@ const WhenwherePage = () => {
                                             <div className="date">
                                                 <i className="icon-clock2"></i>
                                                 <b>
-                                                    <span style={{color: "#7f7f7f"}}>09:00</span>
+                                                    <span style={{color: "#7f7f7f"}}>09.00</span>
                                                     {/* <span style={{color: "#7f7f7f"}}>11:00</span> */}
                                                 </b>
                                             </div>
@@ -77,7 +77,7 @@ const WhenwherePage = () => {
                                     <p>
                                         Tempat:<br/>
                                         <b>
-                                            Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
+                                            Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
                                         <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer"
@@ -121,7 +121,7 @@ const WhenwherePage = () => {
                                                 <span style={{color: "#7f7f7f"}}>
                                                     <b>11.00</b>
                                                     <small> s/d </small>
-                                                    <b>19.00</b>
+                                                    <b>20.00</b>
                                                 </span>
                                             </div>
                                         </div>
@@ -129,7 +129,7 @@ const WhenwherePage = () => {
                                     <p>
                                         Tempat:<br/>
                                         <b>
-                                            Gg. Sadar 1, Kec. Cipondoh, Kota Tangerang
+                                            Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
                                         <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer">
