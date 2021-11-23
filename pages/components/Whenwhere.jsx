@@ -80,7 +80,7 @@ const WhenwherePage = () => {
                                             Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer"
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3xnVuRm" rel="noreferrer"
                                         data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
@@ -132,7 +132,7 @@ const WhenwherePage = () => {
                                             Jl. KH Hasyim Ashari Gg. Sadar 1 No.68, Kec. Cipondoh, Kota Tangerang
                                         </b>
                                         <br/>
-                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3o3Hqbu" rel="noreferrer">
+                                        <a className="btn btn-primary btn-sm" target="_blank" href="https://bit.ly/3xnVuRm" rel="noreferrer">
                                             <i className="icon-calendar"></i> Save The Date
                                             <br/>
                                             {/* <small>Note: <b>Don’t forget to save the date</b></small>
